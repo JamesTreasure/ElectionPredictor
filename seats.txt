@@ -1,0 +1,650 @@
+Aberavon,Labour
+Aberconwy,Conservative
+Aberdeen North,SNP
+Aberdeen South,SNP
+Airdrie & Shotts,SNP
+Aldershot,Conservative
+Aldridge-Brownhills,Conservative
+Altrincham and Sale West,Conservative
+Alyn & Deeside,Labour
+Amber Valley,Conservative
+Angus,SNP
+Arfon,Plaid Cymru
+Argyll & Bute,SNP
+Arundel & South Downs,Conservative
+Ashfield,Labour
+Ashford,Conservative
+Ashton-under-Lyne,Labour
+Aylesbury,Conservative
+Ayr, Carrick and Cumnock,SNP
+Banbury,Conservative
+Banff & Buchan,SNP
+Barking,Labour
+Barnsley Central,Labour
+Barnsley East,Labour
+Barrow in Furness,Labour
+Basildon & Billericay,Conservative
+Basingstoke,Conservative
+Bassetlaw,Labour
+Bath,Conservative
+Batley and Spen,Labour
+Battersea,Conservative
+Beaconsfield,Conservative
+Beckenham,Conservative
+Bedford,Conservative
+Bermondsey & Old Southwark,Labour
+Berwick-upon-Tweed,Conservative
+Berwickshire, Roxburgh & Selkirk,SNP
+Bethnal Green & Bow,Labour
+Beverley & erness,Conservative
+Bexhill & Battle,Conservative
+Bexleyheath & Crayford,Conservative
+Birkenhead,Labour
+Birmingham, Edgbaston,Labour
+Birmingham, Erdington,Labour
+Birmingham, Hall Green,Labour
+Birmingham, Hodge Hill,Labour
+Birmingham, Ladywood,Labour
+Birmingham, Northfield,Labour
+Birmingham, Perry Barr,Labour
+Birmingham, Selly Oak,Labour
+Birmingham, Yardley,Labour
+Bishop Auckland,Labour
+Blackburn,Labour
+Blackley & Broughton,Labour
+Blackpool North & Cleveleys,Conservative
+Blackpool South,Labour
+Blaenau Gwent,Labour
+Blaydon,Labour
+Blyth Valley,Labour
+Bognor Regis & Littlehampton,Conservative
+Bolsover,Labour
+Bolton North East,Labour
+Bolton South East,Labour
+Bolton West,Conservative
+Bootle,Labour
+Boston & Skegness,Conservative
+Bosworth,Conservative
+Bournemouth East,Conservative
+Bournemouth West,Conservative
+Bracknell,Conservative
+Bradford East,Labour
+Bradford South,Labour
+Bradford West,Labour
+Braintree,Conservative
+Brecon & Radnorshire,Conservative
+Brent Central,Labour
+Brent North,Labour
+Brentford & Isleworth,Labour
+Brentwood & Ongar,Conservative
+Bridgend,Labour
+Bridgwater & West Somerset,Conservative
+Brigg & Goole,Conservative
+Brighton, Kemptown,Conservative
+Brighton, Pavilion Green
+Bristol East,Labour
+Bristol North West,Conservative
+Bristol South,Labour
+Bristol West,Labour
+Broadland,Conservative
+Bromley & Chislehurst,Conservative
+Bromsgrove,Conservative
+Broxbourne,Conservative
+Broxtowe,Conservative
+Buckingham,Conservative
+Burnley,Labour
+Burton,Conservative
+Bury North,Conservative
+Bury South,Labour
+Bury St. Edmunds,Conservative
+Caerphilly,Labour
+Caithness, Sutherland & Easter Ross,SNP
+Calder Valley,Conservative
+Camberwell & Peckham,Labour
+Camborne & Redruth,Conservative
+Cambridge,Labour
+Cannock Chase,Conservative
+Canterbury,Conservative
+Cardiff Central,Labour
+Cardiff North,Conservative
+Cardiff South & Penarth,Labour
+Cardiff West,Labour
+Carlisle,Conservative
+Carmarthen East & Dinefwr,Plaid Cymru
+Carmarthen West & South Pembrokeshire,Conservative
+Carshalton & Wallington,Liberal Democrats
+Castle Point,Conservative
+Central Ayrshire,SNP
+Central Devon,Conservative
+Central Suffolk & North Ipswich,Conservative
+Ceredigion,Liberal Democrats
+Charnwood,Conservative
+Chatham & Aylesford,Conservative
+Cheadle,Conservative
+Chelmsford,Conservative
+Chelsea & Fulham,Conservative
+Cheltenham,Conservative
+Chesham & Amersham,Conservative
+Chesterfield,Labour
+Chichester,Conservative
+Chingford & Woodford Green,Conservative
+Chippenham,Conservative
+Chipping Barnet,Conservative
+Chorley,Labour
+Christchurch,Conservative
+Cities of London & Westminster,Conservative
+City of Chester,Labour
+City of Durham,Labour
+Clacton,UKIP
+Cleethorpes,Conservative
+Clwyd South,Labour
+Clwyd West,Conservative
+Coatbridge, Chryston & Bellshill,SNP
+Colchester,Conservative
+Colne Valley,Conservative
+Congleton,Conservative
+Copeland,Labour
+Corby,Conservative
+Coventry North East,Labour
+Coventry North West,Labour
+Coventry South,Labour
+Crawley,Conservative
+Crewe & Nantwich,Conservative
+Croydon Central,Conservative
+Croydon North,Labour
+Croydon South,Conservative
+Cumbernauld, Kilsyth & Kirkintilloch East,SNP
+Cynon Valley,Labour
+Dagenham & Rainham,Labour
+Darlington,Labour
+Dartford,Conservative
+Daventry,Conservative
+Delyn,Labour
+Denton & Reddish,Labour
+Derby North,Conservative
+Derby South,Labour
+Derbyshire Dales,Conservative
+Devizes,Conservative
+Dewsbury,Labour
+Don Valley,Labour
+Doncaster Central,Labour
+Doncaster North,Labour
+Dover,Conservative
+Dudley North,Labour
+Dudley South,Conservative
+Dulwich & West Norwood,Labour
+Dumfries & Galloway,SNP
+Dumfriesshire, Clydesdale & Tweeddale,Conservative
+Dundee East,SNP
+Dundee West,SNP
+Dunfermline & West Fife,SNP
+Dwyfor Meirionnydd,Plaid Cymru
+Ealing Central & Acton,Labour
+Ealing North,Labour
+Ealing Southall,Labour
+Easington,Labour
+East Antrim,DUP
+Belfast East,DUP
+East Devon,Conservative
+East Dunbartonshire,SNP
+East Ham,Labour
+East Hampshire,Conservative
+East Kilbride, Strathaven & Lesmahagow,SNP
+East Londonderry,DUP
+East Lothian,SNP
+East Renfrewshire,SNP
+East Surrey,Conservative
+East Worthing & Shoreham,Conservative
+East Yorkshire,Conservative
+Eastbourne,Conservative
+Eastleigh,Conservative
+Eddisbury,Conservative
+Edinburgh East,SNP
+Edinburgh North & Leith,SNP
+Edinburgh South,Labour
+Edinburgh South West,SNP
+Edinburgh West,SNP
+Edmonton,Labour
+Ellesmere Port & Neston,Labour
+Elmet & Rothwell,Conservative
+Eltham,Labour
+Enfield North,Labour
+Enfield Southgate,Conservative
+Epping Forest,Conservative
+Epsom & Ewell,Conservative
+Erewash,Conservative
+Erith & Thamesmead,Labour
+Esher & Walton,Conservative
+Exeter,Labour
+Falkirk,SNP
+Fareham,Conservative
+Faversham & Mid Kent,Conservative
+Feltham & Heston,Labour
+Fermanagh & South Tyrone,UUP
+Filton & Bradley Stoke,Conservative
+Finchley & Golders Green,Conservative
+Folkestone & Hythe,Conservative
+Forest of Dean,Conservative
+Foyle,SDLP
+Fylde,Conservative
+sborough,Conservative
+Garston & Halewood,Labour
+Gateshead,Labour
+Gedling,Labour
+Gillingham & Rainham,Conservative
+Glasgow Central,SNP
+Glasgow East,SNP
+Glasgow North,SNP
+Glasgow North East,SNP
+Glasgow North West,SNP
+Glasgow South,SNP
+Glasgow South West,SNP
+Glenrothes,SNP
+Gloucester,Conservative
+Gordon,SNP
+Gosport,Conservative
+Gower,Conservative
+Grantham & Stamford,Conservative
+Gravesham,Conservative
+Great Grimsby,Labour
+Great Yarmouth,Conservative
+Greenwich & Woolwich,Labour
+Guildford,Conservative
+Hackney North & Stoke Newington,Labour
+Hackney South & Shoreditch,Labour
+Halesowen & Rowley Regis,Conservative
+Halifax,Labour
+Haltemprice & Howden,Conservative
+Halton,Labour
+Hammersmith,Labour
+Hampstead & Kilburn,Labour
+Harborough,Conservative
+Harlow,Conservative
+Harrogate & Knaresborough,Conservative
+Harrow East,Conservative
+Harrow West,Labour
+Hartlepool,Labour
+Harwich & North Essex,Conservative
+Hastings & Rye,Conservative
+Havant,Conservative
+Hayes & Harlington,Labour
+Hazel Grove,Conservative
+Hemel Hempstead,Conservative
+Hemsworth,Labour
+Hendon,Conservative
+Henley,Conservative
+Hereford & South Herefordshire,Conservative
+Hertford & Stortford,Conservative
+Hertsmere,Conservative
+Hexham,Conservative
+Heywood & Middleton,Labour
+High Peak,Conservative
+Hitchin & Harpenden,Conservative
+Holborn & St Pancras,Labour
+Hornchurch & Upminster,Conservative
+Hornsey & Wood Green,Labour
+Horsham,Conservative
+Houghton & Sunderland South,Labour
+Hove,Labour
+Huddersfield,Labour
+Huntingdon,Conservative
+Hyndburn,Labour
+Ilford North,Labour
+Ilford South,Labour
+Inverclyde,SNP
+Inverness, Nairn, Badenoch & Strathspey,SNP
+Ipswich,Conservative
+Isle of Wight,Conservative
+Islington North,Labour
+Islington South & Finsbury,Labour
+Islwyn,Labour
+Jarrow,Labour
+Keighley,Conservative
+Kenilworth & Southam,Conservative
+Kensington,Conservative
+Kettering,Conservative
+Kilmarnock & Loudoun,SNP
+Kingston & Surbiton,Conservative
+Kingston upon Hull East,Labour
+Kingston upon Hull North,Labour
+Kingston upon Hull West & Hessle,Labour
+Kingswood,Conservative
+Kirkcaldy & Cowdenbeath,SNP
+Knowsley,Labour
+Lagan Valley,DUP
+Lanark & Hamilton East,SNP
+Lancaster and Fleetwood,Labour
+Leeds Central,Labour
+Leeds East,Labour
+Leeds North East,Labour
+Leeds North West,Liberal Democrats
+Leeds West,Labour
+Leicester East,Labour
+Leicester South,Labour
+Leicester West,Labour
+Leigh,Labour
+Lewes,Conservative
+Lewisham Deptford,Labour
+Lewisham East,Labour
+Lewisham West & Penge,Labour
+Leyton & Wanstead,Labour
+Lichfield,Conservative
+Lincoln,Conservative
+Linlithgow & East Falkirk,SNP
+Liverpool Riverside,Labour
+Liverpool Walton,Labour
+Liverpool Wavertree,Labour
+Liverpool West Derby,Labour
+Livingston,SNP
+Llanelli,Labour
+Loughborough,Conservative
+Louth & Horncastle,Conservative
+Ludlow,Conservative
+Luton North,Labour
+Luton South,Labour
+Macclesfield,Conservative
+Maidenhead,Conservative
+Maidstone and The Weald,Conservative
+Makerfield,Labour
+Maldon,Conservative
+Manchester Central,Labour
+Manchester Gorton,Labour
+Manchester Withington,Labour
+Mansfield,Labour
+Meon Valley,Conservative
+Meriden,Conservative
+Merthyr Tydfil & Rhymney,Labour
+Mid Bedfordshire,Conservative
+Mid Derbyshire,Conservative
+Mid Dorset & North Poole,Conservative
+Mid Norfolk,Conservative
+Mid Sussex,Conservative
+Mid Ulster,Sinn Fein
+Mid Worcestershire,Conservative
+Middlesbrough,Labour
+Middlesbrough South & Cleveland East,Labour
+Midlothian,SNP
+Milton Keynes North,Conservative
+Milton Keynes South,Conservative
+Mitcham & Morden,Labour
+Mole Valley,Conservative
+Monmouth,Conservative
+Montgomeryshire,Conservative
+Moray,SNP
+Morecambe & Lunesdale,Conservative
+Morley & Outwood,Conservative
+Motherwell & Wishaw,SNP
+Na h-Eileanan an Iar,SNP
+Neath,Labour
+New Forest East,Conservative
+New Forest West,Conservative
+Newark,Conservative
+Newbury,Conservative
+Newcastle upon Tyne Central,Labour
+Newcastle upon Tyne East,Labour
+Newcastle upon Tyne North,Labour
+Newcastle-under-Lyme,Labour
+Newport East,Labour
+Newport West,Labour
+Newry & Armagh,Sinn Fein
+Newton Abbot,Conservative
+Normanton, Pontefract & Castleford,Labour
+North Antrim,DUP
+North Ayrshire & Arran,SNP
+North Belfast,DUP
+North Cornwall,Conservative
+North Devon,Conservative
+North Dorset,Conservative
+North Durham,Labour
+North Down,Independent
+North East Bedfordshire,Conservative
+North East Cambridgeshire,Conservative
+North East Derbyshire,Labour
+North East Fife,SNP
+North East Hampshire,Conservative
+North East Hertfordshire,Conservative
+North East Somerset,Conservative
+North Herefordshire,Conservative
+North Norfolk,Liberal Democrats
+North Shropshire,Conservative
+North Somerset,Conservative
+North Swindon,Conservative
+North Thanet,Conservative
+North Tyneside,Labour
+North Warwickshire,Conservative
+North West Cambridgeshire,Conservative
+North West Durham,Labour
+North West Hampshire,Conservative
+North West Leicestershire,Conservative
+North West Norfolk,Conservative
+North Wiltshire,Conservative
+Northampton North,Conservative
+Northampton South,Conservative
+Norwich North,Conservative
+Norwich South,Labour
+Nottingham East,Labour
+Nottingham North,Labour
+Nottingham South,Labour
+Nuneaton,Conservative
+Ochil & South Perthshire,SNP
+Ogmore,Labour
+Old Bexley & Sidcup,Conservative
+Oldham East & Saddleworth,Labour
+Oldham West & Royton,Labour
+Orkney & Shetland,Liberal Democrats
+Orpington,Conservative
+Oxford East,Labour
+Oxford West & Abingdon,Conservative
+Paisley & Renfrewshire North,SNP
+Paisley & Renfrewshire South,SNP
+Pendle,Conservative
+Penistone & Stocksbridge,Labour
+Penrith & The Border,Conservative
+Perth & North Perthshire,SNP
+Peterborough,Conservative
+Plymouth Moor View,Conservative
+Plymouth Sutton & Devonport,Conservative
+Pontypridd,Labour
+Poole,Conservative
+Poplar & Limehouse,Labour
+Portsmouth North,Conservative
+Portsmouth South,Conservative
+Preseli Pembrokeshire,Conservative
+Preston,Labour
+Pudsey,Conservative
+Putney,Conservative
+Rayleigh & Wickford,Conservative
+Reading East,Conservative
+Reading West,Conservative
+Redcar,Labour
+Redditch,Conservative
+Reigate,Conservative
+Rhondda,Labour
+Ribble Valley,Conservative
+Richmond (Yorks),Conservative
+Richmond Park,Conservative
+Rochdale,Labour
+Rochester & Strood,Conservative
+Rochford & Southend East,Conservative
+Romford,Conservative
+Romsey & Southampton North,Conservative
+Ross, Skye & Lochaber,SNP
+Rossendale & Darwen,Conservative
+Rother Valley,Labour
+Rotherham,Labour
+Rugby,Conservative
+Ruislip, Northwood & Pinner,Conservative
+Runnymede & Weybridge,Conservative
+Rushcliffe,Conservative
+Rutherglen & Hamilton West,SNP
+Rutland & Melton,Conservative
+Saffron Walden,Conservative
+Salford & Eccles,Labour
+Salisbury,Conservative
+Scarborough & Whitby,Conservative
+Scunthorpe,Labour
+Sedgefield,Labour
+Sefton Central,Labour
+Selby & Ainsty,Conservative
+Sevenoaks,Conservative
+Sheffield Brightside & Hillsborough,Labour
+Sheffield Central,Labour
+Sheffield Hallam,Liberal Democrats
+Sheffield Heeley,Labour
+Sheffield South East,Labour
+Sherwood,Conservative
+Shipley,Conservative
+Shrewsbury & Atcham,Conservative
+Sittingbourne & Sheppey,Conservative
+Skipton & Ripon,Conservative
+Sleaford & North Hykeham,Conservative
+Slough,Labour
+Solihull,Conservative
+Somerton & Frome,Conservative
+South Antrim,UUP
+South Basildon & East Thurrock,Conservative
+South Belfast,SDLP
+South Cambridgeshire,Conservative
+South Derbyshire,Conservative
+South Dorset,Conservative
+South Down,SDLP
+South East Cambridgeshire,Conservative
+South East Cornwall,Conservative
+South Holland & The Deepings,Conservative
+South Leicestershire,Conservative
+South Norfolk,Conservative
+South Northamptonshire,Conservative
+South Ribble,Conservative
+South Shields,Labour
+South Staffordshire,Conservative
+South Suffolk,Conservative
+South Swindon,Conservative
+South Thanet,Conservative
+South West Bedfordshire,Conservative
+South West Devon,Conservative
+South West Hertfordshire,Conservative
+South West Norfolk,Conservative
+South West Surrey,Conservative
+South West Wiltshire,Conservative
+Southampton Itchen,Conservative
+Southampton Test,Labour
+Southend West,Conservative
+Southport,Liberal Democrats
+Spelthorne,Conservative
+St Albans,Conservative
+St Austell & Newquay,Conservative
+St Helens North,Labour
+St Helens South & Whiston,Labour
+St Ives,Conservative
+Stafford,Conservative
+Staffordshire Moorlands,Conservative
+Stalybridge & Hyde,Labour
+Stevenage,Conservative
+Stirling,SNP
+Stockport,Labour
+Stockton North,Labour
+Stockton South,Conservative
+Stoke-on-Trent Central,Labour
+Stoke-on-Trent North,Labour
+Stoke-on-Trent South,Labour
+Stone,Conservative
+Stourbridge,Conservative
+Strangford,DUP
+Stratford-on-Avon,Conservative
+Streatham,Labour
+Stretford & Urmston,Labour
+Stroud,Conservative
+Suffolk Coastal,Conservative
+Sunderland Central,Labour
+Surrey Heath,Conservative
+Sutton & Cheam,Conservative
+Sutton Coldfield,Conservative
+Swansea East,Labour
+Swansea West,Labour
+Tamworth,Conservative
+Tatton,Conservative
+Taunton Deane,Conservative
+Telford,Conservative
+Tewkesbury,Conservative
+The Cotswolds,Conservative
+The Wrekin,Conservative
+Thirsk & Malton,Conservative
+Thornbury & Yate,Conservative
+Thurrock,Conservative
+Tiverton & Honiton,Conservative
+Tonbridge & Malling,Conservative
+Tooting,Labour
+Torbay,Conservative
+Torfaen,Labour
+Torridge & West Devon,Conservative
+Totnes,Conservative
+Tottenham,Labour
+Truro & Falmouth,Conservative
+Tunbridge Wells,Conservative
+Twickenham,Conservative
+Tynemouth,Labour
+Upper Bann,DUP
+Uxbridge & South Ruislip,Conservative
+Vale of Clwyd,Conservative
+Vale of Glamorgan,Conservative
+Vauxhall,Labour
+Wakefield,Labour
+Wallasey,Labour
+Walsall North,Labour
+Walsall South,Labour
+Walthamstow,Labour
+Wansbeck,Labour
+Wantage,Conservative
+Warley,Labour
+Warrington North,Labour
+Warrington South,Conservative
+Warwick & Leamington,Conservative
+Washington & Sunderland West,Labour
+Watford,Conservative
+Waveney,Conservative
+Wealden,Conservative
+Weaver Vale,Conservative
+Wellingborough,Conservative
+Wells,Conservative
+Welwyn Hatfield,Conservative
+Wentworth & Dearne,Labour
+West Aberdeenshire & Kincardine,SNP
+Belfast West,Sinn Fein
+West Bromwich East,Labour
+West Bromwich West,Labour
+West Dorset,Conservative
+West Dunbartonshire,SNP
+West Ham,Labour
+West Lancashire,Labour
+West Suffolk,Conservative
+West Tyrone,Sinn Fein
+West Worcestershire,Conservative
+Westminster North,Labour
+Westmorland & Lonsdale,Liberal Democrats
+Weston-Super-Mare,Conservative
+Wigan,Labour
+Wimbledon,Conservative
+Winchester,Conservative
+Windsor,Conservative
+Wirral South,Labour
+Wirral West,Labour
+Witham,Conservative
+Witney,Conservative
+Woking,Conservative
+Wokingham,Conservative
+Wolverhampton North East,Labour
+Wolverhampton South East,Labour
+Wolverhampton South West,Labour
+Worcester,Conservative
+Workington,Labour
+Worsley & Eccles South,Labour
+Worthing West,Conservative
+Wrexham,Labour
+Wycombe,Conservative
+Wyre & Preston North,Conservative
+Wyre Forest,Conservative
+Wythenshawe & Sale East,Labour
+Yeovil,Conservative
+Ynys Mon,Labour
+York Central,Labour
+York Outer,Conservative
