@@ -40,15 +40,15 @@ Beverley & erness,Conservative
 Bexhill & Battle,Conservative
 Bexleyheath & Crayford,Conservative
 Birkenhead,Labour
-Birmingham, Edgbaston,Labour
-Birmingham, Erdington,Labour
-Birmingham, Hall Green,Labour
-Birmingham, Hodge Hill,Labour
-Birmingham, Ladywood,Labour
-Birmingham, Northfield,Labour
-Birmingham, Perry Barr,Labour
+Birmingham Edgbaston,Labour
+Birmingham Erdington,Labour
+Birmingham Hall Green,Labour
+Birmingham Hodge Hill,Labour
+Birmingham Ladywood,Labour
+Birmingham Northfield,Labour
+Birmingham Perry Barr,Labour
 Birmingham, Selly Oak,Labour
-Birmingham, Yardley,Labour
+Birmingham Yardley,Labour
 Bishop Auckland,Labour
 Blackburn,Labour
 Blackley & Broughton,Labour
@@ -96,7 +96,7 @@ Burnley,Labour
 Burton,Conservative
 Bury North,Conservative
 Bury South,Labour
-Bury St. Edmunds,Conservative
+Bury St Edmunds,Conservative
 Caerphilly,Labour
 Caithness, Sutherland & Easter Ross,SNP
 Calder Valley,Conservative
@@ -338,7 +338,7 @@ Liverpool West Derby,Labour
 Livingston,SNP
 Llanelli,Labour
 Loughborough,Conservative
-Louth & Horncastle,Conservative
+Gainsborough,Conservative
 Ludlow,Conservative
 Luton North,Labour
 Luton South,Labour
@@ -487,7 +487,7 @@ Sedgefield,Labour
 Sefton Central,Labour
 Selby & Ainsty,Conservative
 Sevenoaks,Conservative
-Sheffield Brightside & Hillsborough,Labour
+Sheffield, Brightside & Hillsborough,Labour
 Sheffield Central,Labour
 Sheffield Hallam,Liberal Democrats
 Sheffield Heeley,Labour
