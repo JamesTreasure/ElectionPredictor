@@ -14,6 +14,7 @@ headers = {'X-Application': app_key, 'X-Authentication': session_token, 'content
 my_market_catalogue = []
 list_of_market_ids = []
 
+
 def call_aping(jsonrpc_req):
     try:
         req = urllib.request.Request(url, jsonrpc_req.encode('utf-8'), headers)
