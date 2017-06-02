@@ -19,9 +19,6 @@ import operator
 # print('Done')
 
 
-
-
-
 with open('17-06-01-09-44.json') as f:
     my_market_catalogue = json.load(f)
 
@@ -42,6 +39,10 @@ with open('seats.txt') as f:
 
 constituencies_processed = 0
 number_of_ties = 0
+lookups = 0
+
+predicted_election_results = {}
+
 for market in my_market_catalogue:
     print('---------------------')
     lowest_price_back = 10000
@@ -86,29 +87,33 @@ for market in my_market_catalogue:
     print('LAY: Lowest price runner is ' + str(lowest_price_lay_candidate_name) + ' @ ' + str(
         lowest_price_lay) + ' for ' + market['marketName'])
 
-    if(lowest_price_back < lowest_price_lay):
+    if (lowest_price_back < lowest_price_lay):
         favourite_candidate = lowest_price_back_candidate_name
-    elif(lowest_price_back > lowest_price_lay):
+    elif (lowest_price_back > lowest_price_lay):
         favourite_candidate = lowest_price_lay_candidate_name
-    elif(lowest_price_back == lowest_price_lay):
+    elif (lowest_price_back == lowest_price_lay):
         number_of_ties += 1
         try:
             print("Looked up " + market['marketName'] + ' in dictionary and ' + str(
                 current_seats.get(market['marketName']) + ' won last time.'))
             favourite_candidate = current_seats.get(market['marketName'])
+            lookups +=1
         except:
             print("Error looking up " + market['marketName'])
 
-    if(lowest_price_back == 1.01):
+    if (lowest_price_back == 1.01):
         try:
             print("Looked up " + market['marketName'] + ' in dictionary and ' + str(
                 current_seats.get(market['marketName']) + ' won last time.'))
             favourite_candidate = current_seats.get(market['marketName'])
+            if(favourite_candidate == 'Conservatives'):
+                lookups +=1
         except:
             print("Error looking up " + market['marketName'])
 
     print('Favourite is ' + favourite_candidate)
     print('---------------------')
+    predicted_election_results[market['marketName']] = favourite_candidate
     constituencies_processed += 1
 
     # if (lowest_price_back < lowest_price_lay and lowest_price_back != 0):
@@ -126,4 +131,9 @@ print(seat_count)
 sorted_x = sorted(seat_count.items(), key=operator.itemgetter(1))
 for s in sorted_x:
     print(s)
-print('Number of ties: ' + str(number_of_ties))
+
+
+
+print(predicted_election_results)
+with open('predicted_election_results.json', 'w') as f:
+    json.dump(predicted_election_results, f)
