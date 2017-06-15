@@ -19,8 +19,9 @@ import operator
 # print('Done')
 
 
-with open('17-06-01-09-44.json') as f:
+with open('17-06-08-22-06.json') as f:
     my_market_catalogue = json.load(f)
+
 
 parties = set()
 for market in my_market_catalogue:
@@ -111,6 +112,17 @@ for market in my_market_catalogue:
         except:
             print("Error looking up " + market['marketName'])
 
+
+    if(favourite_candidate == 'Green' or favourite_candidate == 'UKIP'):
+        try:
+            print("Looked up " + market['marketName'] + ' in dictionary and ' + str(
+                current_seats.get(market['marketName']) + ' won last time.'))
+            favourite_candidate = current_seats.get(market['marketName'])
+            if(favourite_candidate == 'Conservatives'):
+                lookups +=1
+        except:
+            print("Error looking up " + market['marketName'])
+
     print('Favourite is ' + favourite_candidate)
     print('---------------------')
     predicted_election_results[market['marketName']] = favourite_candidate
@@ -131,6 +143,8 @@ print(seat_count)
 sorted_x = sorted(seat_count.items(), key=operator.itemgetter(1))
 for s in sorted_x:
     print(s)
+
+
 
 
 

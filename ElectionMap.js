@@ -44,35 +44,35 @@ window.onload = function () {
 
 var UK_CONSTITUENCIES = [
   [0, 0, "St Ives"]
-, [1, 1, "Camborne and Redruth"]
-, [2, 0, "Truro and Falmouth"]
-, [2, 2, "St Austell and Newquay"]
-, [3, 1, "Cornwall South East"]
-, [3, 3, "Cornwall North"]
-, [4, 2, "Plymouth Sutton and Devonport"]
-, [4, 4, "Devon West and Torridge"]
-, [5, 1, "Devon South West"]
-, [5, 3, "Plymouth Moor View"]
+, [1, 1, "Camborne & Redruth"]
+, [2, 0, "Truro & Falmouth"]
+, [2, 2, "St Austell & Newquay"]
+, [3, 1, "South East Cornwall"]
+, [3, 3, "North Cornwall"]
+, [4, 2, "Plymouth, Sutton & Devonport"]
+, [4, 4, "Torridge & West Devon"]
+, [5, 1, "South West Devon"]
+, [5, 3, "Plymouth, Moor View"]
 , [6, 4, "Exeter"]
-, [5, 5, "Devon Central"]
+, [5, 5, "Central Devon"]
 , [6, 2, "Torbay"]
 , [6, 0, "Totnes"]
 , [7, 3, "Newton Abbot"]
-, [7, 5, "Devon East"]
-, [5, 7, "Devon North"]
+, [7, 5, "East Devon"]
+, [5, 7, "North Devon"]
 , [6, 6, "Taunton Deane"]
-, [6, 8, "Bridgwater and Somerset West"]
+, [6, 8, "Bridgwater & West Somerset"]
 , [7, 7, "Yeovil"]
 , [7, 9, "Wells"]
-, [8, 8, "Somerton and Frome"]
-, [8, 6, "Tiverton and Honiton"]
-, [9, 5, "Dorset West"]
-, [10, 4, "Dorset South"]
+, [8, 8, "Somerton & Frome"]
+, [8, 6, "Tiverton & Honiton"]
+, [9, 5, "West Dorset"]
+, [10, 4, "South Dorset"]
 , [10, 6, "Poole"]
-, [9, 7, "Dorset Mid and Poole North"]
+, [9, 7, "Mid Dorset & North Poole"]
 , [8, 10, "Weston-Super-Mare"]
-, [9, 9, "Wiltshire South West"]
-, [10, 8, "Dorset North"]
+, [9, 9, "South West Wiltshire"]
+, [10, 8, "North Dorset"]
 , [11, 7, "Bournemouth East"]
 , [12, 6, "Christchurch"]
 , [13, 5, "New Forest West"]
@@ -85,36 +85,36 @@ var UK_CONSTITUENCIES = [
 , [19, 7, "Portsmouth South"]
 , [20, 8, "Havant"]
 , [21, 7, "Chichester"]
-, [22, 8, "Bognor Regis and Littlehampton"]
+, [22, 8, "Bognor Regis & Littlehampton"]
 , [23, 7, "Worthing West"]
-, [24, 8, "Worthing East and Shoreham"]
+, [24, 8, "East Worthing & Shoreham"]
 , [25, 7, "Hove"]
 , [26, 8, "Brighton Kemptown"]
 , [27, 9, "Lewes"]
 , [28, 8, "Eastbourne"]
 , [12, 8, "Salisbury"]
 , [12, 10, "Devizes"]
-, [12, 12, "Wiltshire North"]
-, [12, 14, "Swindon South"]
+, [12, 12, "North Wiltshire"]
+, [12, 14, "South Swindon"]
 , [12, 16, "Stroud"]
-, [13, 17, "Swindon North"]
+, [13, 17, "North Swindon"]
 , [13, 21, "Cheltenham"]
 , [12, 20, "Tewkesbury"]
 , [11, 19, "Forest of Dean"]
-, [11, 17, "Thornbury and Yate"]
+, [11, 17, "Thornbury & Yate"]
 , [11, 15, "Kingswood"]
-, [10, 16, "Filton and Bradley Stoke"]
+, [10, 16, "Filton & Bradley Stoke"]
 , [10, 14, "Bristol East"]
 , [11, 13, "Bath"]
 , [11, 11, "Chippenham"]
 , [10, 12, "Bristol West"]
 , [9, 13, "Bristol North West"]
-, [8, 12, "Somerset North"]
+, [8, 12, "North Somerset"]
 , [9, 11, "Bristol South"]
-, [10, 10, "Somerset North East"]
+, [10, 10, "North East Somerset"]
 , [11, 9, "Bournemouth West"]
 , [12, 18, "Gloucester"]
-, [13, 19, "Cotswolds, The"]
+, [13, 19, "The Cotswolds"]
 , [10, 18, "Newport West"]
 , [10, 20, "Cardiff North"]
 , [11, 21, "Newport East"]
@@ -122,26 +122,26 @@ var UK_CONSTITUENCIES = [
 , [11, 25, "Torfaen"]
 , [10, 26, "Blaenau Gwent"]
 , [10, 28, "Ceredigion"]
-, [10, 30, "Brecon and Radnorshire"]
+, [10, 30, "Brecon & Radnorshire"]
 , [10, 32, "Montgomeryshire"]
 , [10, 34, "Clwyd South"]
 , [10, 36, "Wrexham"]
-, [10, 38, "Alyn and Deeside"]
+, [10, 38, "Alyn & Deeside"]
 , [9, 39, "Delyn"]
 , [9, 37, "Vale of Clwyd"]
 , [9, 35, "Clwyd West"]
 , [8, 36, "Aberconwy"]
-, [9, 25, "Merthyr Tydfil and Rhymney"]
+, [9, 25, "Merthyr Tydfil & Rhymney"]
 , [8, 24, "Rhondda"]
 , [7, 23, "Neath"]
 , [5, 21, "Llanelli"]
 , [4, 22, "Preseli Pembrokeshire"]
-, [4, 20, "Carmarthen West and Pembrokeshire South"]
+, [4, 20, "Carmarthen West & South Pembrokeshire"]
 , [5, 19, "Gower"]
 , [6, 18, "Swansea East"]
 , [7, 17, "Bridgend"]
 , [8, 18, "Vale of Glamorgan"]
-, [9, 19, "Cardiff South and Penarth"]
+, [9, 19, "Cardiff South & Penarth"]
 , [6, 20, "Swansea West"]
 , [7, 19, "Ogmore"]
 , [7, 21, "Aberavon"]
@@ -151,7 +151,7 @@ var UK_CONSTITUENCIES = [
 , [9, 23, "Cynon Valley"]
 , [10, 24, "Islwyn"]
 , [10, 22, "Caerphilly"]
-, [6, 22, "Carmarthen East and Dinefwr"]
+, [6, 22, "Carmarthen East & Dinefwr"]
 , [25, 9, "Brighton Pavilion"]
 , [7, 35, "Arfon"]
 , [8, 34, "Dwyfor Meirionnydd"]
@@ -165,46 +165,46 @@ var UK_CONSTITUENCIES = [
 , [16, 18, "Slough"]
 , [15, 17, "Oxford East"]
 , [15, 19, "Wycombe"]
-, [15, 21, "Chesham and Amersham"]
+, [15, 21, "Chesham & Amersham"]
 , [14, 20, "Witney"]
 , [14, 18, "Aylesbury"]
-, [14, 16, "Oxford West and Abingdon"]
-, [16, 16, "Runnymede and Weybridge"]
+, [14, 16, "Oxford West & Abingdon"]
+, [16, 16, "Runnymede & Weybridge"]
 , [17, 15, "Windsor"]
-, [17, 13, "Esher and Walton"]
+, [17, 13, "Esher & Walton"]
 , [17, 11, "Mole Valley"]
 , [18, 10, "Guildford"]
-, [19, 11, "Epsom and Ewell"]
+, [19, 11, "Epsom & Ewell"]
 , [20, 10, "Reigate"]
 , [21, 9, "Crawley"]
-, [23, 9, "Arundel and South Downs"]
+, [23, 9, "Arundel & South Downs"]
 , [24, 10, "Horsham"]
-, [25, 11, "Surrey East"]
+, [25, 11, "East Surrey"]
 , [26, 12, "Sevenoaks"]
-, [27, 13, "Tonbridge and Malling"]
+, [27, 13, "Tonbridge & Malling"]
 , [28, 14, "Dartford"]
 , [29, 15, "Gravesham"]
-, [30, 16, "Rochester and Strood"]
-, [31, 15, "Sittingbourne and Sheppey"]
+, [30, 16, "Rochester & Strood"]
+, [31, 15, "Sittingbourne & Sheppey"]
 , [32, 14, "Canterbury"]
-, [33, 13, "Thanet North"]
-, [32, 12, "Thanet South"]
+, [33, 13, "North Thanet"]
+, [32, 12, "South Thanet"]
 , [31, 11, "Dover"]
-, [30, 10, "Folkestone and Hythe"]
-, [29, 9, "Hastings and Rye"]
-, [30, 14, "Chatham and Aylesford"]
-, [31, 13, "Gillingham and Rainham"]
+, [30, 10, "Folkestone & Hythe"]
+, [29, 9, "Hastings & Rye"]
+, [30, 14, "Chatham & Aylesford"]
+, [31, 13, "Gillingham & Rainham"]
 , [29, 13, "Maidstone and The Weald"]
-, [30, 12, "Faversham and Kent Mid"]
+, [30, 12, "Faversham & Mid Kent"]
 , [29, 11, "Ashford"]
 , [28, 12, "Tunbridge Wells"]
-, [28, 10, "Bexhill and Battle"]
+, [28, 10, "Bexhill & Battle"]
 , [27, 11, "Wealden"]
-, [26, 10, "Sussex Mid"]
-, [19, 9, "Hampshire East"]
+, [26, 10, "Mid Sussex"]
+, [19, 9, "East Hampshire"]
 , [18, 8, "Portsmouth North"]
 , [17, 7, "Meon Valley"]
-, [17, 9, "Surrey South West"]
+, [17, 9, "South West Surrey"]
 , [16, 8, "Winchester"]
 , [16, 10, "Woking"]
 , [16, 12, "Surrey Heath"]
@@ -214,39 +214,39 @@ var UK_CONSTITUENCIES = [
 , [14, 14, "Reading East"]
 , [13, 15, "Wantage"]
 , [13, 13, "Newbury"]
-, [13, 11, "Hampshire North West"]
-, [13, 9, "Romsey and Southampton North"]
+, [13, 11, "North West Hampshire"]
+, [13, 9, "Romsey & Southampton North"]
 , [13, 7, "New Forest East"]
 , [14, 8, "Basingstoke"]
 , [15, 9, "Aldershot"]
 , [14, 10, "Wokingham"]
 , [14, 12, "Reading West"]
-, [15, 11, "Hampshire North East"]
+, [15, 11, "North East Hampshire"]
 , [30, 18, "Thurrock"]
 , [31, 19, "Castle Point"]
-, [31, 21, "Rochford and Southend East"]
+, [31, 21, "Rochford & Southend East"]
 , [31, 23, "Maldon"]
 , [31, 25, "Clacton"]
 , [31, 27, "Suffolk Coastal"]
 , [30, 28, "Waveney"]
 , [29, 29, "Great Yarmouth"]
-, [28, 30, "Norfolk North"]
+, [28, 30, "North Norfolk"]
 , [27, 29, "Norwich South"]
 , [27, 31, "Broadland"]
-, [26, 32, "Norfolk North West"]
-, [25, 31, "Cambridgeshire North East"]
-, [24, 30, "Hertfordshire North East"]
+, [26, 32, "North West Norfolk"]
+, [25, 31, "North East Cambridgeshire"]
+, [24, 30, "North East Hertfordshire"]
 , [23, 31, "Peterborough"]
-, [22, 32, "Norfolk Mid"]
-, [21, 31, "Cambridgeshire North West"]
+, [22, 32, "Mid Norfolk"]
+, [21, 31, "North West Cambridgeshire"]
 , [20, 30, "Huntingdon"]
 , [19, 29, "Bedford"]
-, [18, 28, "Bedfordshire North East"]
+, [18, 28, "North East Bedfordshire"]
 , [18, 26, "Luton North"]
 , [19, 27, "Luton South"]
-, [17, 25, "Bedfordshire Mid"]
-, [17, 23, "Bedfordshire South West"]
-, [18, 24, "Hertfordshire South West"]
+, [17, 25, "Mid Bedfordshire"]
+, [17, 23, "South West Bedfordshire"]
+, [18, 24, "South West Hertfordshire"]
 , [19, 25, "Watford"]
 , [20, 26, "Hertsmere"]
 , [21, 27, "Welwyn Hatfield"]
@@ -255,31 +255,31 @@ var UK_CONSTITUENCIES = [
 , [24, 26, "Harlow"]
 , [25, 27, "Cambridge"]
 , [25, 25, "Epping Forest"]
-, [26, 24, "Brentwood and Ongar"]
+, [26, 24, "Brentwood & Ongar"]
 , [27, 23, "Saffron Walden"]
 , [28, 24, "Colchester"]
 , [28, 22, "Chelmsford"]
-, [29, 21, "Basildon and Billericay"]
-, [30, 20, "Basildon South and Thurrock East"]
-, [20, 28, "Hitchin and Harpenden"]
+, [29, 21, "Basildon & Billericay"]
+, [30, 20, "South Basildon & East Thurrock"]
+, [20, 28, "Hitchen & Harpenden"]
 , [21, 29, "Stevenage"]
-, [22, 30, "Cambridgeshire South"]
+, [22, 30, "South Cambridgeshire"]
 , [23, 29, "Hemel Hempstead"]
-, [24, 28, "Hertford and Stortford"]
-, [25, 29, "Norfolk South West"]
+, [24, 28, "Hertford & Stortford"]
+, [25, 29, "South West Norfolk"]
 , [26, 30, "Norwich North"]
-, [26, 28, "Suffolk West"]
-, [26, 26, "Cambridgeshire South East"]
+, [26, 28, "West Suffolk"]
+, [26, 26, "South East Cambridgeshire"]
 , [27, 27, "Bury St Edmunds"]
-, [28, 28, "Norfolk South"]
+, [28, 28, "South Norfolk"]
 , [27, 25, "Braintree"]
-, [28, 26, "Suffolk South"]
+, [28, 26, "South Suffolk"]
 , [29, 27, "Ipswich"]
-, [29, 25, "Harwich and Essex North"]
-, [29, 23, "Rayleigh and Wickford"]
+, [29, 25, "Harwich & North Essex"]
+, [29, 23, "Rayleigh & Wickford"]
 , [30, 22, "Southend West"]
 , [30, 24, "Witham"]
-, [30, 26, "Suffolk Central and Ipswich North"]
+, [30, 26, "Central Suffolk & North Ipswich"]
 , [11, 39, "Newcastle-under-Lyme"]
 , [12, 40, "Stoke-on-Trent North"]
 , [13, 41, "Stoke-on-Trent Central"]
@@ -287,30 +287,30 @@ var UK_CONSTITUENCIES = [
 , [15, 41, "Stone"]
 , [16, 42, "Burton"]
 , [17, 41, "Tamworth"]
-, [17, 39, "Warwickshire North"]
+, [17, 39, "North Warwickshire"]
 , [18, 42, "High Peak"]
-, [19, 41, "Derbyshire North East"]
+, [19, 41, "North East Derbyshire"]
 , [20, 40, "Chesterfield"]
 , [21, 41, "Bolsover"]
 , [22, 42, "Mansfield"]
 , [23, 41, "Bassetlaw"]
 , [24, 40, "Newark"]
 , [25, 39, "Gainsborough"]
-, [25, 37, "Louth and Horncastle"]
-, [25, 35, "Boston and Skegness"]
-, [25, 33, "South Holland and The Deepings"]
+, [25, 37, "Louth & Horncastle"]
+, [25, 35, "Boston & Skegness"]
+, [25, 33, "South Holland & The Deepings"]
 , [17, 37, "Nuneaton"]
 , [17, 35, "Coventry North East"]
 , [17, 33, "Coventry North West"]
 , [16, 32, "Coventry South"]
 , [16, 30, "Rugby"]
-, [16, 28, "Warwick and Leamington"]
-, [16, 26, "Northamptonshire South"]
-, [12, 22, "Hereford and Herefordshire South"]
-, [13, 23, "Worcestershire West"]
-, [14, 24, "Worcestershire Mid"]
+, [16, 28, "Warwick & Leamington"]
+, [16, 26, "South Northamptonshire"]
+, [12, 22, "Hereford & South Herefordshire"]
+, [13, 23, "West Worcestershire"]
+, [14, 24, "Mid Worcestershire"]
 , [15, 25, "Stratford-on-Avon"]
-, [15, 27, "Kenilworth and Southam"]
+, [15, 27, "Kenilworth & Southam"]
 , [15, 29, "Solihull"]
 , [12, 24, "Worcester"]
 , [13, 25, "Redditch"]
@@ -320,9 +320,9 @@ var UK_CONSTITUENCIES = [
 , [12, 26, "Birmingham Edgbaston"]
 , [15, 31, "Birmingham Yardley"]
 , [14, 30, "Birmingham Ladywood"]
-, [13, 29, "Halesowen and Rowley Regis"]
+, [13, 29, "Halesowen & Rowley Regis"]
 , [12, 28, "Stourbridge"]
-, [11, 27, "Herefordshire North"]
+, [11, 27, "North Herefordshire"]
 , [11, 29, "Wyre Forest"]
 , [12, 30, "West Bromwich West"]
 , [13, 31, "Birmingham Selly Oak"]
@@ -335,7 +335,7 @@ var UK_CONSTITUENCIES = [
 , [13, 33, "Warley"]
 , [11, 31, "Ludlow"]
 , [12, 32, "Dudley South"]
-, [11, 33, "Wrekin, The"]
+, [11, 33, "The Wrekin"]
 , [12, 34, "Dudley North"]
 , [13, 35, "Wolverhampton South East"]
 , [14, 36, "Walsall South"]
@@ -346,11 +346,11 @@ var UK_CONSTITUENCIES = [
 , [14, 40, "Wolverhampton North East"]
 , [14, 38, "Walsall North"]
 , [13, 39, "Stoke-on-Trent South"]
-, [12, 38, "Staffordshire South"]
+, [12, 38, "South Staffordshire"]
 , [13, 37, "Wolverhampton South West"]
-, [11, 37, "Shropshire North"]
+, [11, 37, "North Shropshire"]
 , [12, 36, "Telford"]
-, [11, 35, "Shrewsbury and Atcham"]
+, [11, 35, "Shrewsbury & Atcham"]
 , [17, 27, "Northampton South"]
 , [17, 29, "Northampton North"]
 , [17, 31, "Daventry"]
@@ -358,15 +358,15 @@ var UK_CONSTITUENCIES = [
 , [19, 31, "Leicester South"]
 , [19, 33, "Leicester West"]
 , [20, 34, "Leicester East"]
-, [18, 32, "Leicestershire South"]
+, [18, 32, "South Leicestershire"]
 , [18, 34, "Bosworth"]
 , [20, 32, "Harborough"]
 , [21, 33, "Kettering"]
 , [21, 35, "Charnwood"]
 , [22, 34, "Corby"]
-, [23, 33, "Rutland and Melton"]
-, [24, 32, "Grantham and Stamford"]
-, [24, 34, "Sleaford and North Hykeham"]
+, [23, 33, "Rutland & Melton"]
+, [24, 32, "Grantham & Stamford"]
+, [24, 34, "Sleaford & North Hykeham"]
 , [24, 36, "Lincoln"]
 , [24, 38, "Gedling"]
 , [23, 39, "Nottingham North"]
@@ -378,142 +378,142 @@ var UK_CONSTITUENCIES = [
 , [22, 36, "Nottingham South"]
 , [21, 37, "Erewash"]
 , [20, 38, "Amber Valley"]
-, [19, 39, "Derbyshire Mid"]
+, [19, 39, "Mid Derbyshire"]
 , [18, 40, "Derbyshire Dales"]
 , [18, 38, "Derby North"]
 , [19, 37, "Derby South"]
 , [20, 36, "Loughborough"]
-, [19, 35, "Leicestershire North West"]
-, [18, 36, "Derbyshire South"]
-, [29, 17, "Hornchurch and Upminster"]
+, [19, 35, "North West Leicestershire"]
+, [18, 36, "South Derbyshire"]
+, [29, 17, "Hornchurch & Upminster"]
 , [29, 19, "Romford"]
 , [28, 20, "Ilford South"]
 , [28, 18, "Barking"]
-, [28, 16, "Dagenham and Rainham"]
-, [27, 15, "Erith and Thamesmead"]
-, [27, 17, "Old Bexley and Sidcup"]
+, [28, 16, "Dagenham & Rainham"]
+, [27, 15, "Erith & Thamesmead"]
+, [27, 17, "Old Bexley & Sidcup"]
 , [27, 19, "East Ham"]
 , [27, 21, "Ilford North"]
-, [26, 22, "Chingford and Woodford Green"]
+, [26, 22, "Chingford & Woodford Green"]
 , [26, 20, "West Ham"]
-, [26, 18, "Greenwich and Woolwich"]
+, [26, 18, "Greenwich & Woolwich"]
 , [26, 16, "Eltham"]
-, [26, 14, "Bexleyheath and Crayford"]
+, [26, 14, "Bexleyheath & Crayford"]
 , [25, 13, "Orpington"]
-, [25, 15, "Bromley and Chislehurst"]
+, [25, 15, "Bromley & Chislehurst"]
 , [25, 17, "Lewisham Deptford"]
-, [25, 19, "Bethnal Green and Bow"]
-, [25, 21, "Leyton and Wanstead"]
+, [25, 19, "Bethnal Green & Bow"]
+, [25, 21, "Leyton & Wanstead"]
 , [25, 23, "Edmonton"]
 , [24, 24, "Enfield North"]
 , [24, 22, "Walthamstow"]
-, [24, 20, "Hackney South and Shoreditch"]
-, [24, 18, "Poplar and Limehouse"]
-, [24, 16, "Camberwell and Peckham"]
+, [24, 20, "Hackney South & Shoreditch"]
+, [24, 18, "Poplar & Limehouse"]
+, [24, 16, "Camberwell & Peckham"]
 , [24, 14, "Lewisham East"]
 , [24, 12, "Beckenham"]
 , [23, 11, "Croydon Central"]
 , [22, 10, "Croydon South"]
-, [23, 13, "Lewisham West and Penge"]
-, [23, 15, "Dulwich and West Norwood"]
-, [23, 17, "Bermondsey and Old Southwark"]
-, [23, 19, "Islington South and Finsbury"]
-, [23, 21, "Hackney North and Stoke Newington"]
+, [23, 13, "Lewisham West & Penge"]
+, [23, 15, "Dulwich & West Norwood"]
+, [23, 17, "Bermondsey & Old Southwark"]
+, [23, 19, "Islington South & Finsbury"]
+, [23, 21, "Hackney North & Stoke Newington"]
 , [23, 23, "Tottenham"]
 , [23, 25, "Enfield Southgate"]
 , [22, 26, "Chipping Barnet"]
-, [22, 24, "Finchley and Golders Green"]
+, [22, 24, "Finchley & Golders Green"]
 , [22, 22, "Islington North"]
-, [22, 20, "Holborn and St Pancras"]
-, [22, 18, "Cities of London and Westminster"]
+, [22, 20, "Holborn & St Pancras"]
+, [22, 18, "Cities of London & Westminster"]
 , [22, 16, "Vauxhall"]
 , [22, 14, "Streatham"]
 , [22, 12, "Croydon North"]
-, [21, 11, "Carshalton and Wallington"]
+, [21, 11, "Carshalton & Wallington"]
 , [21, 13, "Tooting"]
 , [21, 15, "Battersea"]
-, [21, 17, "Chelsea and Fulham"]
+, [21, 17, "Chelsea & Fulham"]
 , [21, 19, "Westminster North"]
-, [21, 21, "Hornsey and Wood Green"]
+, [21, 21, "Hornsey & Wood Green"]
 , [21, 23, "Brent Central"]
 , [21, 25, "Hendon"]
 , [20, 24, "Harrow East"]
 , [20, 22, "Brent North"]
-, [20, 20, "Hampstead and Kilburn"]
+, [20, 20, "Hampstead & Kilburn"]
 , [20, 18, "Kensington"]
 , [20, 16, "Hammersmith"]
 , [20, 14, "Wimbledon"]
-, [20, 12, "Mitcham and Morden"]
-, [19, 13, "Sutton and Cheam"]
+, [20, 12, "Mitcham & Morden"]
+, [19, 13, "Sutton & Cheam"]
 , [19, 15, "Putney"]
 , [19, 17, "Richmond Park"]
-, [19, 19, "Brentford and Isleworth"]
-, [19, 21, "Ealing Central and Acton"]
+, [19, 19, "Brentford & Isleworth"]
+, [19, 21, "Ealing Central & Acton"]
 , [19, 23, "Harrow West"]
-, [18, 22, "Ruislip, Northwood and Pinner"]
+, [18, 22, "Ruislip, Northwood & Pinner"]
 , [18, 20, "Ealing North"]
 , [18, 18, "Ealing Southall"]
-, [18, 16, "Feltham and Heston"]
+, [18, 16, "Feltham & Heston"]
 , [18, 14, "Twickenham"]
-, [18, 12, "Kingston and Surbiton"]
-, [17, 17, "Hayes and Harlington"]
-, [17, 19, "Uxbridge and Ruislip South"]
+, [18, 12, "Kingston & Surbiton"]
+, [17, 17, "Hayes & Harlington"]
+, [17, 19, "Uxbridge & South Ruislip"]
 , [17, 43, "Hazel Grove"]
-, [17, 45, "Stalybridge and Hyde"]
-, [17, 47, "Oldham East and Saddleworth"]
+, [17, 45, "Stalybridge & Hyde"]
+, [17, 47, "Oldham East & Saddleworth"]
 , [17, 49, "Rochdale"]
-, [17, 51, "Rossendale and Darwen"]
+, [17, 51, "Rossendale & Darwen"]
 , [17, 53, "Burnley"]
 , [17, 55, "Pendle"]
 , [17, 57, "Ribble Valley"]
 , [16, 58, "Lancaster and Fleetwood"]
-, [15, 59, "Westmorland and Lonsdale"]
+, [15, 59, "Westmorland & Lonsdale"]
 , [14, 60, "Carlisle"]
-, [14, 62, "Penrith and The Border"]
+, [14, 62, "Penrith & The Border"]
 , [13, 61, "Workington"]
 , [13, 59, "Copeland"]
-, [13, 57, "Barrow and Furness"]
-, [12, 56, "Blackpool North and Cleveleys"]
+, [13, 57, "Barrow & Furness"]
+, [12, 56, "Blackpool North & Cleveleys"]
 , [11, 55, "Blackpool South"]
 , [11, 53, "Fylde"]
-, [11, 51, "Lancashire West"]
-, [10, 50, "Ribble South"]
+, [11, 51, "West Lancashire"]
+, [10, 50, "South Ribble"]
 , [9, 49, "Southport"]
 , [9, 47, "Sefton Central"]
 , [9, 45, "Birkenhead"]
 , [8, 44, "Bootle"]
 , [8, 42, "Wallasey"]
 , [8, 40, "Wirral West"]
-, [13, 63, "Dumfriesshire, Clydesdale and Tweeddale"]
-, [12, 64, "Rutherglen and Hamilton West"]
-, [11, 63, "Dumfries and Galloway"]
+, [13, 63, "Dumfriesshire, Clydesdale & Tweeddale"]
+, [12, 64, "Rutherglen & Hamilton West"]
+, [11, 63, "Dumfries & Galloway"]
 , [10, 64, "Ayr, Carrick and Cumnock"]
-, [9, 65, "Ayrshire Central"]
-, [9, 67, "Ayrshire North and Arran"]
-, [9, 69, "Paisley and Renfrewshire South"]
+, [9, 65, "Central Ayrshire"]
+, [9, 67, "North Ayrshire & Arran"]
+, [9, 69, "Paisley & Renfrewshire South"]
 , [9, 71, "Glasgow South West"]
 , [8, 72, "Inverclyde"]
 , [9, 73, "Glasgow North West"]
-, [9, 75, "Paisley and Renfrewshire North"]
-, [9, 77, "Argyll and Bute"]
+, [9, 75, "Paisley & Renfrewshire North"]
+, [9, 77, "Argyll & Bute"]
 , [10, 78, "Stirling"]
-, [10, 80, "Ross, Skye and Lochaber"]
-, [10, 82, "Caithness, Sutherland and Easter Ross"]
-, [11, 79, "Inverness, Nairn, Badenoch and Strathspey"]
+, [10, 80, "Ross, Skye & Lochaber"]
+, [10, 82, "Caithness, Sutherland & Easter Ross"]
+, [11, 79, "Inverness, Nairn, Badenoch & Strathspey"]
 , [12, 80, "Gordon"]
-, [13, 81, "Banff and Buchan"]
+, [13, 81, "Banff & Buchan"]
 , [14, 80, "Aberdeen North"]
 , [15, 79, "Aberdeen South"]
 , [14, 78, "Angus"]
 , [14, 76, "Dundee West"]
-, [15, 75, "Fife North East"]
+, [15, 75, "North East Fife"]
 , [14, 74, "Glenrothes"]
-, [13, 73, "Kirkcaldy and Cowdenbeath"]
+, [13, 73, "Kirkcaldy & Cowdenbeath"]
 , [13, 71, "Edinburgh West"]
 , [14, 70, "Edinburgh East"]
 , [15, 69, "East Lothian"]
-, [14, 68, "Edinburgh North and Leith"]
-, [14, 66, "Berwickshire, Roxburgh and Selkirk"]
+, [14, 68, "Edinburgh North & Leith"]
+, [14, 66, "Berwickshire, Roxburgh & Selkirk"]
 , [15, 65, "Berwick-upon-Tweed"]
 , [16, 66, "Wansbeck"]
 , [17, 65, "Blyth Valley"]
@@ -523,76 +523,76 @@ var UK_CONSTITUENCIES = [
 , [20, 62, "Easington"]
 , [21, 61, "Hartlepool"]
 , [22, 60, "Redcar"]
-, [22, 58, "Middlesbrough South and Cleveland East"]
+, [22, 58, "Middlesbrough South & East Cleveland"]
 , [21, 57, "Stockton South"]
 , [20, 58, "Darlington"]
 , [19, 59, "Sedgefield"]
 , [18, 58, "Bishop Auckland"]
 , [14, 64, "Midlothian"]
-, [13, 85, "Orkney and Shetland"]
-, [8, 80, "Na H-Eileanan An Iar"]
-, [22, 56, "Harrogate and Knaresborough"]
-, [23, 55, "Scarborough and Whitby"]
+, [13, 85, "Orkney & Shetland"]
+, [8, 80, "Na h-Eileanan an Iar"]
+, [22, 56, "Harrogate & Knaresborough"]
+, [23, 55, "Scarborough & Whitby"]
 , [23, 53, "York Outer"]
-, [25, 51, "Yorkshire East"]
-, [25, 49, "Beverley and Holderness"]
-, [24, 48, "Hull North"]
-, [24, 46, "Hull East"]
-, [24, 44, "Hull West and Hessle"]
+, [25, 51, "East Yorkshire"]
+, [25, 49, "Beverley & Holderness"]
+, [24, 48, "Kingston upon Hull North"]
+, [24, 46, "Kingston upon Hull East"]
+, [24, 44, "Kingston upon Hull West & Hessle"]
 , [25, 43, "Great Grimsby"]
 , [25, 41, "Cleethorpes"]
-, [24, 50, "Haltemprice and Howden"]
+, [24, 50, "Haltemprice & Howden"]
 , [23, 51, "Hemsworth"]
 , [21, 59, "Middlesbrough"]
 , [20, 60, "Stockton North"]
-, [19, 61, "Houghton and Sunderland South"]
-, [19, 63, "Washington and Sunderland West"]
+, [19, 61, "Houghton & Sunderland South"]
+, [19, 63, "Washington & Sunderland West"]
 , [18, 64, "Jarrow"]
 , [18, 62, "Gateshead"]
-, [18, 60, "Durham, City of"]
-, [17, 63, "Tyneside North"]
+, [18, 60, "City of Durham"]
+, [17, 63, "North Tyneside"]
 , [17, 61, "Newcastle upon Tyne East"]
-, [17, 59, "Durham North"]
-, [16, 60, "Durham North West"]
+, [17, 59, "North Durham"]
+, [16, 60, "North West Durham"]
 , [16, 62, "Newcastle upon Tyne Central"]
 , [16, 64, "Newcastle upon Tyne North"]
 , [15, 63, "Hexham"]
 , [15, 61, "Blaydon"]
-, [13, 79, "Aberdeenshire West and Kincardine"]
+, [13, 79, "West Aberdeenshire & Kincardine"]
 , [12, 78, "Moray"]
 , [13, 77, "Dundee East"]
-, [13, 75, "Dunfermline and West Fife"]
+, [13, 75, "Dunfermline & West Fife"]
 , [12, 74, "Falkirk"]
-, [12, 76, "Ochil and South Perthshire"]
-, [11, 77, "Perth and North Perthshire"]
-, [10, 76, "Dunbartonshire West"]
-, [11, 75, "Cumbernauld, Kilsyth and Kirkintilloch East"]
-, [10, 74, "Dunbartonshire East"]
+, [12, 76, "Ochil & South Perthshire"]
+, [11, 77, "Perth & North Perthshire"]
+, [10, 76, "West Dunbartonshire"]
+, [11, 75, "Cumbernauld, Kilsyth & Kirkintilloch East"]
+, [10, 74, "East Dunbartonshire"]
 , [11, 73, "Glasgow North East"]
-, [12, 72, "Linlithgow and Falkirk East"]
+, [12, 72, "Linlithgow & East Falkirk"]
 , [13, 69, "Edinburgh South West"]
 , [13, 67, "Edinburgh South"]
 , [13, 65, "Livingston"]
-, [12, 66, "Lanark and Hamilton East"]
-, [12, 68, "Motherwell and Wishaw"]
-, [12, 70, "Airdrie and Shotts"]
+, [12, 66, "Lanark & Hamilton East"]
+, [12, 68, "Motherwell & Wishaw"]
+, [12, 70, "Airdrie & Shotts"]
 , [11, 71, "Glasgow East"]
-, [11, 69, "Coatbridge, Chryston and Bellshill"]
+, [11, 69, "Coatbridge, Chryston & Bellshill"]
 , [11, 67, "Glasgow South"]
-, [11, 65, "Kilmarnock and Loudoun"]
-, [10, 66, "East Kilbride, Strathaven and Lesmahagow"]
-, [10, 68, "Renfrewshire East"]
+, [11, 65, "Kilmarnock & Loudon"]
+, [10, 66, "East Kilbride, Strathaven & Lesmahagow"]
+, [10, 68, "East Renfrewshire"]
 , [10, 70, "Glasgow Central"]
 , [10, 72, "Glasgow North"]
-, [22, 54, "Selby and Ainsty"]
-, [21, 55, "Elmet and Rothwell"]
+, [22, 54, "Selby & Ainsty"]
+, [21, 55, "Elmet & Rothwell"]
 , [20, 56, "Shipley"]
 , [19, 57, "Richmond (Yorks)"]
 , [22, 52, "York Central"]
-, [21, 53, "Normanton, Pontefract and Castleford"]
+, [21, 53, "Normanton, Pontefract & Castleford"]
 , [20, 54, "Leeds West"]
 , [19, 55, "Pudsey"]
-, [18, 56, "Skipton and Ripon"]
+, [18, 56, "Skipton & Ripon"]
 , [18, 54, "Keighley"]
 , [19, 53, "Bradford East"]
 , [20, 52, "Leeds North West"]
@@ -600,19 +600,19 @@ var UK_CONSTITUENCIES = [
 , [22, 50, "Leeds East"]
 , [23, 49, "Doncaster North"]
 , [23, 47, "Doncaster Central"]
-, [23, 45, "Brigg and Goole"]
+, [23, 45, "Brigg & Goole"]
 , [24, 42, "Scunthorpe"]
 , [23, 43, "Rother Valley"]
 , [22, 44, "Sheffield South East"]
 , [21, 43, "Sheffield Heeley"]
 , [20, 42, "Sheffield Hallam"]
-, [19, 43, "Penistone and Stocksbridge"]
+, [19, 43, "Penistone & Stocksbridge"]
 , [20, 44, "Sheffield Central"]
-, [21, 45, "Sheffield Brightside and Hillsborough"]
+, [21, 45, "Sheffield, Brightside & Hillsborough"]
 , [22, 46, "Don Valley"]
-, [22, 48, "Wentworth and Dearne"]
+, [22, 48, "Wentworth & Dearne"]
 , [21, 47, "Rotherham"]
-, [21, 49, "Morley and Outwood"]
+, [21, 49, "Morley & Outwood"]
 , [20, 50, "Wakefield"]
 , [20, 48, "Dewsbury"]
 , [20, 46, "Barnsley East"]
@@ -625,735 +625,84 @@ var UK_CONSTITUENCIES = [
 , [18, 52, "Bradford West"]
 , [18, 50, "Bradford South"]
 , [18, 48, "Halifax"]
-, [14, 58, "Morecambe and Lunesdale"]
-, [15, 57, "Wyre and Preston North"]
+, [14, 58, "Morecambe & Lunesdale"]
+, [15, 57, "Wyre & Preston North"]
 , [16, 56, "Hyndburn"]
-, [16, 54, "Heywood and Middleton"]
+, [16, 54, "Heywood & Middleton"]
 , [15, 55, "Bury North"]
 , [14, 56, "Blackburn"]
 , [13, 55, "Preston"]
 , [14, 54, "Bolton North East"]
 , [15, 53, "Bury South"]
-, [16, 52, "Oldham West and Royton"]
-, [16, 50, "Ashton under Lyne"]
-, [16, 48, "Denton and Reddish"]
+, [16, 52, "Oldham West & Royton"]
+, [16, 50, "Ashton-under-Lyne"]
+, [16, 48, "Denton & Reddish"]
 , [16, 46, "Stockport"]
 , [16, 44, "Macclesfield"]
 , [15, 43, "Congleton"]
 , [15, 45, "Cheadle"]
 , [15, 47, "Manchester Withington"]
 , [15, 49, "Manchester Central"]
-, [15, 51, "Blackley and Broughton"]
+, [15, 51, "Blackley & Broughton"]
 , [14, 52, "Bolton South East"]
 , [12, 54, "Chorley"]
 , [13, 53, "Bolton West"]
 , [12, 52, "Wigan"]
-, [13, 51, "Stretford and Urmston"]
-, [14, 50, "Salford and Eccles"]
-, [14, 48, "Wythenshawe and Sale East"]
+, [13, 51, "Stretford & Urmston"]
+, [14, 50, "Salford & Eccles"]
+, [14, 48, "Wythenshawe & Sale East"]
 , [13, 49, "Manchester Gorton"]
 , [12, 50, "Makerfield"]
 , [14, 46, "Altrincham and Sale West"]
 , [14, 44, "Tatton"]
-, [13, 43, "Crewe and Nantwich"]
+, [13, 43, "Crewe & Nantwich"]
 , [13, 45, "Warrington South"]
-, [13, 47, "Worsley and Eccles South"]
+, [13, 47, "Worsley & Eccles South"]
 , [12, 48, "Leigh"]
 , [11, 49, "St Helens North"]
 , [12, 42, "Weaver Vale"]
 , [12, 44, "Halton"]
 , [12, 46, "Warrington North"]
 , [11, 41, "Eddisbury"]
-, [11, 43, "Garston and Halewood"]
-, [11, 45, "St Helens South and Whiston"]
+, [11, 43, "Garston & Halewood"]
+, [11, 45, "St Helens South & Whiston"]
 , [11, 47, "Knowsley"]
 , [10, 48, "Liverpool Walton"]
 , [10, 46, "Liverpool West Derby"]
 , [10, 44, "Liverpool Wavertree"]
 , [10, 42, "Liverpool Riverside"]
 , [9, 41, "Wirral South"]
-, [9, 43, "Ellesmere Port and Neston"]
-, [10, 40, "Chester, City of"]
-, [24, 52, "Thirsk and Malton"]
+, [9, 43, "Ellesmere Port & Neston"]
+, [10, 40, "City of Chester"]
+, [24, 52, "Thirsk & Malton"]
 , [0, 50, "Strangford"]
-, [0, 52, "Down North"]
-, [-1, 49, "Down South"]
+, [0, 52, "North Down"]
+, [-1, 49, "South Down"]
 , [-1, 51, "Lagan Valley"]
 , [-1, 53, "Belfast East"]
 , [-2, 50, "Upper Bann"]
 , [-2, 52, "Belfast South"]
-, [-3, 51, "Newry and Armagh"]
+, [-3, 51, "Newry & Armagh"]
 , [-1, 55, "Belfast North"]
-, [0, 56, "Antrim East"]
-, [-1, 57, "Antrim North"]
-, [-2, 58, "Londonderry East"]
-, [-2, 56, "Antrim South"]
+, [0, 56, "East Antrim"]
+, [-1, 57, "North Antrim"]
+, [-2, 58, "East Londonderry"]
+, [-2, 56, "South Antrim"]
 , [-3, 57, "Foyle"]
-, [-4, 56, "Tyrone West"]
-, [-3, 55, "Ulster Mid"]
+, [-4, 56, "West Tyrone"]
+, [-3, 55, "Mid Ulster"]
 , [-2, 54, "Belfast West"]
-, [-4, 54, "Fermanagh and South Tyrone"]
+, [-4, 54, "Fermanagh & South Tyrone"]
 ];
 
-var UK_GENERAL_ELECTION_RESULTS_2010 = {"North West Leicestershire": "Conservative", "North West Hampshire": "Conservative", "Croydon Central": "Conservative", "Reading East": "Conservative", "Liverpool West Derby": "Labour", "Basingstoke": "Conservative", "Belfast West": "Sinn Fein", "North West Cambridgeshire": "Conservative", "Oldham West and Royton": "Labour", "Brighton Pavilion": "Green", "Stockton South": "Conservative", "Erewash": "Conservative", "North East Hertfordshire": "Conservative", "South Down": "Sinn Fein", "Wealden": "Conservative", "North Antrim": "DUP", "Harrow West": "Conservative", "Edmonton": "Labour", "Huntingdon": "Conservative", "Hazel Grove": "Conservative", "South East Cornwall": "Conservative", "Esher and Walton": "Conservative", "Leeds North East": "Labour", "Airdrie and Shotts": "SNP", "Newcastle upon Tyne Central": "Labour", "Chingford and Woodford Green": "Conservative", "Camborne and Redruth": "Conservative", "Dover": "Conservative", "Makerfield": "Labour", "Wrexham": "Conservative", "Bishop Auckland": "Conservative", "Hastings and Rye": "Conservative", "High Peak": "Conservative", "Rochester and Strood": "Conservative", "Bolton South East": "Labour", "Wentworth and Dearne": "Labour", "Tewkesbury": "Conservative", "West Worcestershire": "Conservative", "Angus": "SNP", "Southampton Itchen": "Conservative", "North Devon": "Conservative", "Bradford East": "Labour", "Edinburgh North and Leith": "SNP", "Worthing West": "Conservative", "Bootle": "Labour", "Cities of London and Westminster": "Conservative", "Caithness, Sutherland and Easter Ross": "SNP", "Somerton and Frome": "Conservative", "Selby and Ainsty": "Conservative", "Merthyr Tydfil and Rhymney": "Labour", "St Helens South and Whiston": "Labour", "Newport West": "Conservative", "Cambridge": "Labour", "Orkney and Shetland": "Liberal Democrat", "West Tyrone": "Sinn Fein", "Elmet and Rothwell": "Conservative", "Leicester West": "Labour", "Bury St Edmunds": "Conservative", "West Suffolk": "Conservative", "Paisley and Renfrewshire North": "SNP", "Filton and Bradley Stoke": "Conservative", "Na h-Eileanan an Iar": "SNP", "Redditch": "Conservative", "Worcester": "Conservative", "Bexhill and Battle": "Labour", "South East Cambridgeshire": "Conservative", "Ceredigion": "Liberal Democrat", "Dwyfor Meirionnydd": "Plaid Cymru", "Great Yarmouth": "Conservative", "Dumfriesshire, Clydesdale and Tweeddale": "Conservative", "Walsall South": "Labour", "Sheffield Central": "Labour", "Louth and Horncastle": "Conservative", "Taunton Deane": "Conservative", "Brigg and Goole": "Conservative", "Wirral West": "Liberal Democrat", "Westminster North": "Conservative", "Penistone and Stocksbridge": "Labour", "Lancaster and Fleetwood": "Conservative", "Tonbridge and Malling": "Conservative", "Hitchen and Harpenden": "Conservative", "Rotherham": "Labour", "Derbyshire Dales": "Conservative", "Havant": "Conservative", "Wimbledon": "Conservative", "Feltham and Heston": "Labour", "Birmingham Yardley": "Labour", "Cardiff West": "Labour", "Glasgow Central": "SNP", "Glasgow North": "SNP", "Denton and Reddish": "Labour", "Worsley and Eccles South": "Labour", "Ealing Central and Acton": "UKIP", "South Ribble": "Conservative", "North Swindon": "Conservative", "Hackney North and Stoke Newington": "Labour", "Coventry South": "Conservative", "Wolverhampton South East": "Labour", "Delyn": "Conservative", "Corby": "Liberal Democrat", "Liverpool Walton": "Labour", "Devizes": "Conservative", "Southampton Test": "Conservative", "Kingston upon Hull North": "Labour", "Coventry North West": "Conservative", "Exeter": "Labour", "Stirling": "SNP", "Stevenage": "Conservative", "West Bromwich West": "Labour", "Knowsley": "Labour", "Isle of Wight": "Conservative", "Stockton North": "Labour", "Torbay": "Conservative", "Pendle": "Conservative", "Poole": "Conservative", "Hexham": "Conservative", "Northampton South": "Conservative", "Bermondsey and Old Southwark": "Labour", "Bradford South": "Labour", "Banbury": "Conservative", "Rugby": "Conservative", "New Forest West": "Conservative", "Enfield North": "Conservative", "Ogmore": "Labour", "Burnley": "Labour", "North Somerset": "Conservative", "Darlington": "Conservative", "Telford": "Conservative", "East Antrim": "DUP", "Twickenham": "Liberal Democrat", "Leeds Central": "Labour", "Clwyd South": "Conservative", "Watford": "Conservative", "Reading West": "Conservative", "Birmingham Selly Oak": "Labour", "Altrincham and Sale West": "Conservative", "Kilmarnock and Loudon": "SNP", "Hertsmere": "Conservative", "Waveney": "Conservative", "Putney": "Conservative", "Stalybridge and Hyde": "Labour", "Wallasey": "Labour", "Plymouth, Sutton and Devonport": "Conservative", "Cheadle": "Conservative", "Portsmouth South": "Conservative", "Kettering": "Conservative", "Central Devon": "Conservative", "Sutton and Cheam": "Conservative", "Erith and Thamesmead": "Labour", "Bristol West": "Labour", "West Lancashire": "Labour", "Barnsley East": "Labour", "Ayr, Carrick and Cumnock": "SNP", "Peterborough": "Conservative", "Cardiff Central": "Labour", "Maldon": "Conservative", "Derby South": "Labour", "South Antrim": "UUP", "Hayes and Harlington": "Labour", "Old Bexley and Sidcup": "Conservative", "Newcastle upon Tyne North": "Labour", "Garston and Halewood": "Labour", "Colchester": "Conservative", "Glasgow North East": "SNP", "Leicester East": "Labour", "South Leicestershire": "Conservative", "Nottingham South": "Labour", "Mitcham and Morden": "Labour", "Chelsea and Fulham": "Conservative", "South West Surrey": "Conservative", "Copeland": "Conservative", "Sevenoaks": "Conservative", "Macclesfield": "Conservative", "Newbury": "Conservative", "Bristol North West": "Conservative", "Great Grimsby": "Conservative", "Wyre Forest": "Conservative", "Southend West": "Conservative", "Streatham": "Labour", "Calder Valley": "Conservative", "Inverness, Nairn, Badenoch and Strathspey": "SNP", "Kenilworth and Southam": "Conservative", "Norwich North": "Conservative", "North East Derbyshire": "Conservative", "Holborn and St Pancras": "Labour", "Weston-Super-Mare": "Conservative", "Barrow and Furness": "Conservative", "Dudley North": "Conservative", "Birmingham Perry Barr": "Labour", "North Warwickshire": "Conservative", "Greenwich and Woolwich": "Labour", "Chelmsford": "Conservative", "Birmingham Northfield": "Conservative", "St Helens North": "Conservative", "Perth and North Perthshire": "Conservative", "Battersea": "Conservative", "Halton": "Labour", "North Cornwall": "Conservative", "Bethnal Green and Bow": "Labour", "West Dunbartonshire": "SNP", "Wyre and Preston North": "Conservative", "Beverley and Holderness": "Conservative", "Bognor Regis and Littlehampton": "Conservative", "Barnsley Central": "Labour", "Eltham": "Conservative", "Gillingham and Rainham": "Conservative", "Salford and Eccles": "Labour", "Gedling": "Conservative", "Birmingham Erdington": "Conservative", "Manchester Central": "Labour", "Carmarthen West and South Pembrokeshire": "Conservative", "Edinburgh South": "Labour", "Kensington": "Labour", "East Lothian": "SNP", "Eastleigh": "Conservative", "Ynys Mon": "Plaid Cymru", "East Ham": "Labour", "Vale of Clwyd": "Conservative", "Linlithgow and East Falkirk": "SNP", "Bournemouth East": "Conservative", "East Yorkshire": "Conservative", "Truro and Falmouth": "Conservative", "Windsor": "Conservative", "Stourbridge": "Conservative", "East Devon": "Conservative", "Eastbourne": "Conservative", "Strangford": "DUP", "South Holland and The Deepings": "Conservative", "Fareham": "Conservative", "Sunderland Central": "Labour", "Aylesbury": "Conservative", "Henley": "Conservative", "Cumbernauld, Kilsyth and Kirkintilloch East": "SNP", "Vale of Glamorgan": "Conservative", "Newark": "Conservative", "Dundee East": "SNP", "Winchester": "Conservative", "City of Durham": "Labour", "Dumfries and Galloway": "Conservative", "Broxbourne": "Conservative", "Crewe and Nantwich": "Conservative", "Coventry North East": "Labour", "Poplar and Limehouse": "Labour", "Ilford South": "Labour", "Lincoln": "Conservative", "New Forest East": "Conservative", "Blackpool North and Cleveleys": "Conservative", "Witham": "Conservative", "Hampstead and Kilburn": "Conservative", "East Londonderry": "DUP", "Sheffield Hallam": "Liberal Democrat", "Lewisham West and Penge": "Labour", "North East Fife": "Liberal Democrat", "Jarrow": "Labour", "Wigan": "Labour", "St Albans": "Conservative", "Staffordshire Moorlands": "Conservative", "Thurrock": "Conservative", "Birkenhead": "Green", "Paisley and Renfrewshire South": "SNP", "Keighley": "Conservative", "Liverpool Wavertree": "Labour", "Haltemprice and Howden": "Conservative", "Wirral South": "Labour", "Sheffield Heeley": "Labour", "Bath": "Conservative", "Reigate": "Conservative", "Braintree": "Conservative", "Bury South": "Conservative", "Hove": "Conservative", "Dagenham and Rainham": "Labour", "South West Norfolk": "Conservative", "Skipton and Ripon": "Conservative", "Woking": "Conservative", "West Dorset": "Conservative", "Edinburgh East": "SNP", "Luton North": "Labour", "Blaenau Gwent": "Labour", "Coatbridge, Chryston and Bellshill": "SNP", "Broadland": "Conservative", "North Wiltshire": "Conservative", "Sheffield, Brightside and Hillsborough": "Labour", "North Shropshire": "Conservative", "Aberdeen South": "SNP", "Croydon North": "Labour", "Montgomeryshire": "Conservative", "Warwick and Leamington": "Conservative", "Alyn and Deeside": "Conservative", "Brighton Kemptown": "Conservative", "East Dunbartonshire": "Liberal Democrats", "Caerphilly": "Labour", "Stratford-on-Avon": "Conservative", "Chesterfield": "Labour", "Rutland and Melton": "Conservative", "South Derbyshire": "Conservative", "Middlesbrough": "Labour", "Blackpool South": "UKIP", "Kingston upon Hull West and Hessle": "Labour", "Huddersfield": "Labour", "Chorley": "Labour", "Basildon and Billericay": "Conservative", "South West Hertfordshire": "Conservative", "Solihull": "Conservative", "Morley and Outwood": "Conservative", "Tunbridge Wells": "Conservative", "Bournemouth West": "Conservative", "Brentwood and Ongar": "Conservative", "Lewisham Deptford": "Labour", "North West Norfolk": "Conservative", "Scunthorpe": "Liberal Democrat", "Aldridge-Brownhills": "Conservative", "Witney": "Conservative", "Gower": "Conservative", "Stockport": "Labour", "Mid Ulster": "Sinn Fein", "Shrewsbury and Atcham": "Conservative", "Camberwell and Peckham": "Labour", "Amber Valley": "Conservative", "Saffron Walden": "Conservative", "Tottenham": "Labour", "North Thanet": "Conservative", "Easington": "Labour", "Heywood and Middleton": "Labour", "Falkirk": "SNP", "Stone": "Conservative", "Pudsey": "Conservative", "Sedgefield": "Labour", "Hornsey and Wood Green": "Labour", "Preseli Pembrokeshire": "Conservative", "Argyll and Bute": "SNP", "St Ives": "Conservative", "St Austell and Newquay": "Conservative", "Dartford": "Conservative", "Warrington South": "Conservative", "Bassetlaw": "Labour", "Mid Norfolk": "Conservative", "Bury North": "Conservative", "Wycombe": "Conservative", "Hereford and South Herefordshire": "Conservative", "Kingston and Surbiton": "Liberal Democrat", "Gateshead": "Labour", "Leeds West": "Labour", "Sherwood": "Conservative", "Gloucester": "Conservative", "Hackney South and Shoreditch": "Labour", "Bristol East": "Conservative", "Kingston upon Hull East": "Labour", "Newry and Armagh": "Sinn Fein", "Stafford": "Conservative", "Redcar": "Labour", "Rother Valley": "Labour", "Brecon and Radnorshire": "Conservative", "Stoke-on-Trent Central": "Labour", "Surrey Heath": "Conservative", "Wellingborough": "Conservative", "York Outer": "Conservative", "North Ayrshire and Arran": "SNP", "Hendon": "Conservative", "Cardiff North": "Conservative", "South Staffordshire": "Conservative", "South Shields": "Labour", "Ellesmere Port and Neston": "Labour", "Boston and Skegness": "Conservative", "South Dorset": "Conservative", "Belfast South": "SDLP", "Kingswood": "Conservative", "Romsey and Southampton North": "Conservative", "Rochford and Southend East": "Conservative", "Belfast North": "DUP", "Nottingham East": "Labour", "Sutton Coldfield": "Conservative", "Leeds East": "Labour", "Banff and Buchan": "SNP", "Belfast East": "Alliance", "Thirsk and Malton": "Conservative", "Doncaster Central": "Labour", "Bolsover": "Labour", "Livingston": "SNP", "Yeovil": "Conservative", "Congleton": "Conservative", "Maidenhead": "Conservative", "Christchurch": "Conservative", "Aberavon": "Labour", "Luton South": "Labour", "Carlisle": "Conservative", "North West Durham": "Labour", "Colne Valley": "Conservative", "Ilford North": "Conservative", "Stretford and Urmston": "Labour", "Edinburgh South West": "SNP", "Bedford": "Conservative", "Torridge and West Devon": "Conservative", "Forest of Dean": "Conservative", "Beaconsfield": "Conservative", "Halifax": "Conservative", "Sittingbourne and Sheppey": "Conservative", "Ipswich": "Conservative", "North Herefordshire": "Conservative", "Slough": "Labour", "Leicester South": "Labour", "Aberconwy": "Conservative", "North East Hampshire": "Conservative", "Carmarthen East and Dinefwr": "Plaid Cymru", "Batley and Spen": "Labour", "Kirkcaldy and Cowdenbeath": "SNP", "Rutherglen and Hamilton West": "SNP", "Ochil and South Perthshire": "SNP", "Totnes": "Conservative", "Cynon Valley": "Labour", "Manchester Withington": "Labour", "Swansea East": "Labour", "Houghton and Sunderland South": "Labour", "Bolton West": "Conservative", "Bridgwater and West Somerset": "Conservative", "Islington North": "Labour", "Cheltenham": "Conservative", "Eddisbury": "Conservative", "Hartlepool": "Labour", "Bolton North East": "Conservative", "Tooting": "Labour", "Runnymede and Weybridge": "Conservative", "Ealing Southall": "Labour", "Wansbeck": "Labour", "Oxford West and Abingdon": "Conservative", "Chichester": "Conservative", "Tynemouth": "Labour", "Brent Central": "Labour", "Guildford": "Conservative", "West Aberdeenshire and Kincardine": "Conservative", "Ealing North": "Labour", "Berwick-upon-Tweed": "Conservative", "Bracknell": "Conservative", "Newton Abbot": "Conservative", "West Ham": "Labour", "Canterbury": "Conservative", "North East Bedfordshire": "Conservative", "Charnwood": "Conservative", "Lewisham East": "Labour", "City of Chester": "Green", "Scarborough and Whitby": "Conservative", "Westmorland and Lonsdale": "Liberal Democrat", "Don Valley": "Labour", "Inverclyde": "SNP", "Meriden": "Conservative", "Middlesbrough South and East Cleveland": "Conservative", "North Dorset": "Conservative", "Weaver Vale": "Conservative", "South Thanet": "Conservative", "Cleethorpes": "Conservative", "Suffolk Coastal": "Conservative", "Blyth Valley": "Labour", "Milton Keynes North": "Conservative", "Birmingham Edgbaston": "Conservative", "Wolverhampton South West": "Conservative", "East Kilbride, Strathaven and Lesmahagow": "SNP", "York Central": "Labour", "Berwickshire, Roxburgh and Selkirk": "Conservative", "Castle Point": "Conservative", "Tamworth": "Conservative", "Ashford": "Conservative", "Wythenshawe and Sale East": "Labour", "Warrington North": "Labour", "Newcastle-under-Lyme": "Conservative", "Brent North": "Labour", "Mid Worcestershire": "Conservative", "East Renfrewshire": "Conservative", "Hemel Hempstead": "Conservative", "Central Suffolk and North Ipswich": "Conservative", "Newport East": "Labour", "Chesham and Amersham": "Conservative", "Ashfield": "Labour", "Torfaen": "Labour", "Oxford East": "Labour", "Loughborough": "Conservative", "Southport": "Conservative", "Blackburn": "Labour", "Doncaster North": "Labour", "Islington South and Finsbury": "Labour", "Romford": "Conservative", "Arundel and South Downs": "Conservative", "Harlow": "Conservative", "Chatham and Aylesford": "Conservative", "Wokingham": "Conservative", "The Cotswolds": "Conservative", "Mid Bedfordshire": "Conservative", "Stoke-on-Trent South": "Conservative", "Monmouth": "Labour", "Grantham and Stamford": "Conservative", "Hornchurch and Upminster": "Conservative", "Tiverton and Honiton": "Conservative", "North East Cambridgeshire": "Conservative", "Morecambe and Lunesdale": "Conservative", "Sheffield South East": "Labour", "Blaydon": "Labour", "Sleaford and North Hykeham": "Conservative", "Birmingham Hodge Hill": "Labour", "South Norfolk": "Conservative", "Hertford and Stortford": "Conservative", "Wakefield": "Conservative", "Rochdale": "Green", "Glasgow South": "SNP", "South Suffolk": "Conservative", "Oldham East and Saddleworth": "Conservative", "Birmingham Hall Green": "Labour", "Normanton, Pontefract and Castleford": "Labour", "Upper Bann": "DUP", "West Bromwich East": "Labour", "Bromsgrove": "Conservative", "Norwich South": "Labour", "Motherwell and Wishaw": "SNP", "North Norfolk": "Conservative", "Dulwich and West Norwood": "Labour", "Derby North": "Conservative", "Harwich and North Essex": "Conservative", "Cardiff South and Penarth": "Labour", "South Swindon": "Conservative", "Hyndburn": "Conservative", "Salisbury": "Conservative", "Milton Keynes South": "Conservative", "Dewsbury": "Conservative", "Pontypridd": "Labour", "Welwyn Hatfield": "Conservative", "Horsham": "Conservative", "South Northamptonshire": "Conservative", "Beckenham": "Conservative", "Ross, Skye and Lochaber": "SNP", "Bridgend": "Conservative", "Fylde": "Conservative", "South West Devon": "Conservative", "Aldershot": "Conservative", "Cannock Chase": "Conservative", "Clwyd West": "Conservative", "Leeds North West": "Liberal Democrat", "South West Wiltshire": "Conservative", "Manchester Gorton": "Labour", "Lichfield": "Conservative", "Harborough": "Conservative", "Nuneaton": "Conservative", "East Surrey": "Conservative", "Stroud": "Conservative", "Leigh": "Labour", "Mid Dorset and North Poole": "Conservative", "The Wrekin": "Conservative", "Gordon": "SNP", "Lagan Valley": "DUP", "Buckingham": "Conservative", "Aberdeen North": "SNP", "Spelthorne": "Conservative", "Swansea West": "Labour", "Meon Valley": "Conservative", "Vauxhall": "Labour", "Finchley and Golders Green": "Conservative", "South Cambridgeshire": "Conservative", "Nottingham North": "Labour", "Wolverhampton North East": "Labour", "Birmingham Ladywood": "Labour", "Rayleigh and Wickford": "Conservative", "Gosport": "Conservative", "Burton": "Conservative", "Ashton-under-Lyne": "Labour", "Foyle": "SDLP", "Leyton and Wanstead": "Labour", "Stoke-on-Trent North": "Conservative", "Gravesham": "Conservative", "Rushcliffe": "Conservative", "Workington": "UKIP", "Glasgow North West": "SNP", "Llanelli": "Labour", "Blackley and Broughton": "Labour", "Glenrothes": "SNP", "Fermanagh and South Tyrone": "Sinn Fein", "Washington and Sunderland West": "Labour", "Crawley": "Conservative", "Ruislip, Northwood and Pinner": "Conservative", "Preston": "Labour", "Hemsworth": "Labour", "Bosworth": "Conservative", "Arfon": "Plaid Cymru", "Lanark and Hamilton East": "SNP", "Gainsborough": "Conservative", "Midlothian": "SNP", "Richmond Park": "Conservative", "Ludlow": "Conservative", "Mole Valley": "Conservative", "Sefton Central": "Labour", "Shipley": "Conservative", "Wells": "Conservative", "Glasgow East": "SNP", "Enfield Southgate": "Conservative", "Moray": "SNP", "Dundee West": "SNP", "South West Bedfordshire": "Conservative", "Chippenham": "Conservative", "Mansfield": "Conservative", "Penrith and The Border": "Conservative", "Northampton North": "Conservative", "Broxtowe": "Conservative", "Maidstone and The Weald": "Conservative", "Faversham and Mid Kent": "Conservative", "Rossendale and Darwen": "Conservative", "Wantage": "Conservative", "Portsmouth North": "Conservative", "Harrogate and Knaresborough": "Conservative", "Brentford and Isleworth": "Conservative", "Clacton": "UKIP", "Folkestone and Hythe": "Conservative", "Rhondda": "Labour", "Hammersmith": "Labour", "Carshalton and Wallington": "Conservative", "Central Ayrshire": "SNP", "Epping Forest": "Conservative", "South Basildon and East Thurrock": "Conservative", "Neath": "Labour", "North Durham": "Labour", "Newcastle upon Tyne East": "Labour", "North Tyneside": "Labour", "Edinburgh West": "Liberal Democrat", "Ribble Valley": "Conservative", "Bristol South": "Labour", "Tatton": "Conservative", "Plymouth, Moor View": "Conservative", "Orpington": "Conservative", "Warley": "Labour", "Barking": "Labour", "Halesowen and Rowley Regis": "Conservative", "Daventry": "Conservative", "Glasgow South West": "SNP", "Croydon South": "Conservative", "Thornbury and Yate": "Conservative", "Harrow East": "Conservative", "Bradford West": "Labour", "Lewes": "Conservative", "Walthamstow": "Conservative", "North East Somerset": "Conservative", "Epsom and Ewell": "Conservative", "North Down": "Independent", "East Hampshire": "Conservative", "Mid Derbyshire": "Conservative", "East Worthing and Shoreham": "Conservative", "Islwyn": "Labour", "Uxbridge and South Ruislip": "Conservative", "Walsall North": "Conservative", "Richmond (Yorks)": "Conservative", "Dudley South": "Conservative", "Liverpool Riverside": "Labour", "Dunfermline and West Fife": "SNP", "Mid Sussex": "Conservative", "Chipping Barnet": "Conservative", "Bexleyheath and Crayford": "Conservative", "Bromley and Chislehurst": "Conservative"}
+var UK_GENERAL_ELECTION_RESULTS_2010 = {"South West Devon": "Conservative", "Vale of Clwyd": "Conservative", "Harrow East": "Conservative", "Bristol South": "Labour", "Edinburgh South": "Labour", "Tewkesbury": "Conservative", "South West Wiltshire": "Conservative", "Houghton & Sunderland South": "Labour", "Beaconsfield": "Conservative", "Havant": "Conservative", "South East Cambridgeshire": "Conservative", "Morley & Outwood": "Conservative", "Ellesmere Port & Neston": "Labour", "Leeds West": "Labour", "East Londonderry": "DUP", "Rotherham": "Labour", "Glasgow East": "SNP", "Dartford": "Conservative", "Battersea": "Conservative", "Stockton South": "Conservative", "Westmorland & Lonsdale": "Liberal Democrat", "Reading East": "Conservative", "Corby": "Conservative", "Argyll & Bute": "SNP", "Northampton North": "Conservative", "Stoke-on-Trent North": "Conservative", "Halifax": "Conservative", "City of Durham": "Labour", "East Renfrewshire": "Conservative", "Wrexham": "Conservative", "Spelthorne": "Conservative", "Gordon": "SNP", "Glasgow North": "SNP", "Paisley & Renfrewshire North": "SNP", "Fermanagh & South Tyrone": "UUP", "Aberconwy": "Conservative", "Hartlepool": "Labour", "Holborn & St Pancras": "Labour", "Bromley & Chislehurst": "Conservative", "Harrogate & Knaresborough": "Conservative", "South Norfolk": "Conservative", "Newport East": "Labour", "Kingston upon Hull North": "Labour", "Shipley": "Conservative", "Wimbledon": "Conservative", "Leicester West": "Labour", "Hertford & Stortford": "Conservative", "Leigh": "Labour", "Weston-Super-Mare": "Conservative", "Makerfield": "Labour", "South Shields": "Labour", "West Lancashire": "Labour", "Halesowen & Rowley Regis": "Conservative", "Preseli Pembrokeshire": "Conservative", "St Austell & Newquay": "Conservative", "Hereford & South Herefordshire": "Conservative", "New Forest West": "Conservative", "Chipping Barnet": "Conservative", "Leeds North East": "Labour", "Islwyn": "Labour", "Hackney South & Shoreditch": "Labour", "Oldham West & Royton": "Labour", "Daventry": "Conservative", "East Surrey": "Conservative", "Westminster North": "Labour", "Normanton, Pontefract & Castleford": "Labour", "Rugby": "Conservative", "East Antrim": "DUP", "Kingston upon Hull East": "Labour", "Llanelli": "Labour", "Brentford & Isleworth": "Conservative", "Croydon Central": "Conservative", "Rother Valley": "Labour", "North Dorset": "Conservative", "Eastleigh": "Conservative", "Denton & Reddish": "Labour", "Inverness, Nairn, Badenoch & Strathspey": "SNP", "Vauxhall": "Labour", "Bethnal Green & Bow": "Labour", "Barrow & Furness": "Conservative", "Blackburn": "Labour", "Guildford": "Conservative", "Congleton": "Conservative", "Stevenage": "Conservative", "Luton North": "Labour", "Midlothian": "SNP", "Wealden": "Conservative", "Birmingham Northfield": "Conservative", "Lanark & Hamilton East": "SNP", "Lewisham East": "Labour", "Gainsborough": "Conservative", "Cannock Chase": "Conservative", "Birmingham Hall Green": "Labour", "Worthing West": "Conservative", "Bristol West": "Labour", "Chesterfield": "Labour", "Epping Forest": "Conservative", "Ribble Valley": "Conservative", "Harlow": "Conservative", "Salisbury": "Conservative", "North Thanet": "Conservative", "Bradford West": "Labour", "Bath": "Conservative", "Stretford & Urmston": "Labour", "Cleethorpes": "Conservative", "Newcastle upon Tyne Central": "Labour", "Saffron Walden": "Conservative", "West Aberdeenshire & Kincardine": "Conservative", "Dwyfor Meirionnydd": "Plaid Cymru", "Rhondda": "Labour", "Torridge & West Devon": "Conservative", "Isle of Wight": "Conservative", "North Warwickshire": "Conservative", "Cardiff Central": "Labour", "Reading West": "Conservative", "Bury North": "Conservative", "Leeds East": "Labour", "South West Norfolk": "Conservative", "Ruislip, Northwood & Pinner": "Conservative", "Stoke-on-Trent South": "Conservative", "Lewisham Deptford": "Labour", "Bristol North West": "Conservative", "Belfast West": "Sinn Fein", "Stoke-on-Trent Central": "Labour", "Portsmouth North": "Conservative", "Rushcliffe": "Conservative", "Leicester South": "Labour", "Dagenham & Rainham": "Labour", "Nottingham East": "Labour", "Swansea West": "Labour", "Kingston upon Hull West & Hessle": "Labour", "Bishop Auckland": "Conservative", "Tiverton & Honiton": "Conservative", "Sheffield Central": "Labour", "Totnes": "Conservative", "Yeovil": "Conservative", "Thirsk & Malton": "Conservative", "Kilmarnock & Loudon": "SNP", "Mid Sussex": "Conservative", "West Dunbartonshire": "SNP", "Wellingborough": "Conservative", "Batley and Spen": "Labour", "Croydon North": "Conservative", "North Somerset": "Conservative", "Newcastle-under-Lyme": "Conservative", "Rochester & Strood": "Conservative", "Hyndburn": "Labour", "Leeds Central": "Labour", "Ashford": "Conservative", "Watford": "Conservative", "Gravesham": "Conservative", "Ceredigion": "Liberal Democrats", "Morecambe & Lunesdale": "Conservative", "Manchester Withington": "Labour", "Hayes & Harlington": "Labour", "West Bromwich East": "Labour", "Birmingham Ladywood": "Labour", "Gosport": "Conservative", "Cardiff North": "Conservative", "Edmonton": "Labour", "Wigan": "Labour", "South Ribble": "Conservative", "Hornsey & Wood Green": "Labour", "Hexham": "Conservative", "Liverpool West Derby": "Labour", "South Derbyshire": "Conservative", "Camborne & Redruth": "Conservative", "Manchester Gorton": "Labour", "Newark": "Conservative", "Chesham & Amersham": "Conservative", "Coatbridge, Chryston & Bellshill": "SNP", "Leyton & Wanstead": "Labour", "Kingswood": "Conservative", "North Ayrshire & Arran": "SNP", "North East Hertfordshire": "Conservative", "Belfast North": "DUP", "Wythenshawe & Sale East": "Labour", "Grantham & Stamford": "Conservative", "Carshalton & Wallington": "Conservative", "Birkenhead": "Labour", "Leicester East": "Labour", "Eddisbury": "Conservative", "Stockton North": "Labour", "Camberwell & Peckham": "Labour", "Romsey & Southampton North": "Conservative", "Sherwood": "Conservative", "Perth & North Perthshire": "SNP", "Epsom & Ewell": "Conservative", "Paisley & Renfrewshire South": "SNP", "Aberdeen North": "SNP", "Rossendale & Darwen": "Conservative", "Edinburgh West": "Liberal Democrat", "Wallasey": "Labour", "Birmingham Edgbaston": "Conservative", "Telford": "Conservative", "Oldham East & Saddleworth": "Labour", "Lewes": "Conservative", "South Cambridgeshire": "Conservative", "Na h-Eileanan an Iar": "SNP", "Truro & Falmouth": "Conservative", "Broxtowe": "Conservative", "Slough": "Labour", "Weaver Vale": "Conservative", "Burton": "Conservative", "Richmond (Yorks)": "Conservative", "South West Bedfordshire": "Conservative", "Preston": "Labour", "Birmingham Selly Oak": "Labour", "Falkirk": "SNP", "Dudley North": "Conservative", "Southampton Test": "Conservative", "Wyre & Preston North": "Conservative", "Chelsea & Fulham": "Conservative", "Suffolk Coastal": "Conservative", "Welwyn Hatfield": "Conservative", "Eastbourne": "Conservative", "Bridgend": "Labour", "Banbury": "Conservative", "Inverclyde": "SNP", "North East Hampshire": "Conservative", "Stafford": "Conservative", "Shrewsbury & Atcham": "Conservative", "Old Bexley & Sidcup": "Conservative", "Exeter": "Labour", "Chippenham": "Conservative", "Bournemouth East": "Conservative", "Livingston": "SNP", "Merthyr Tydfil & Rhymney": "Labour", "Blaenau Gwent": "Labour", "Gower": "Conservative", "Glasgow North East": "SNP", "Newry & Armagh": "Sinn Fein", "North East Derbyshire": "Conservative", "Skipton & Ripon": "Conservative", "North Shropshire": "Conservative", "Glasgow Central": "SNP", "Mansfield": "Labour", "Newcastle upon Tyne North": "Labour", "West Suffolk": "Conservative", "Neath": "Labour", "Coventry North West": "Labour", "Doncaster North": "Labour", "Hendon": "Conservative", "Gedling": "Conservative", "North West Norfolk": "Conservative", "Braintree": "Conservative", "Chorley": "Labour", "Aldershot": "Conservative", "Hitchen & Harpenden": "Conservative", "Tonbridge & Malling": "Conservative", "Haltemprice & Howden": "Conservative", "Woking": "Conservative", "Louth & Horncastle": "Conservative", "Harrow West": "Conservative", "Romford": "Conservative", "Easington": "Labour", "Runnymede & Weybridge": "Conservative", "Brentwood & Ongar": "Conservative", "High Peak": "Conservative", "Islington North": "Labour", "Loughborough": "Conservative", "Ashton-under-Lyne": "Labour", "Blackpool South": "Conservative", "Sedgefield": "Labour", "Thornbury & Yate": "Conservative", "Tynemouth": "Labour", "Forest of Dean": "Conservative", "Glenrothes": "SNP", "Belfast South": "SDLP", "Bromsgrove": "Conservative", "Sutton Coldfield": "Conservative", "Sevenoaks": "Conservative", "Finchley & Golders Green": "Conservative", "Meon Valley": "Conservative", "Crewe & Nantwich": "Conservative", "Filton & Bradley Stoke": "Conservative", "North West Durham": "Labour", "Islington South & Finsbury": "Labour", "Harborough": "Conservative", "Aldridge-Brownhills": "Conservative", "Surrey Heath": "Conservative", "Tamworth": "Conservative", "Dudley South": "Conservative", "Maidenhead": "Conservative", "Southport": "Conservative", "North Herefordshire": "Conservative", "Bermondsey & Old Southwark": "Labour", "Mid Derbyshire": "Conservative", "Harwich & North Essex": "Conservative", "Croydon South": "Conservative", "Derbyshire Dales": "Conservative", "Barking": "Labour", "Lagan Valley": "DUP", "Worcester": "Conservative", "Edinburgh East": "SNP", "City of Chester": "Conservative", "Linlithgow & East Falkirk": "SNP", "Mitcham & Morden": "Labour", "Bedford": "Conservative", "Wolverhampton South East": "Labour", "Rutherglen & Hamilton West": "SNP", "Ynys Mon": "Plaid Cymru", "Lewisham West & Penge": "Labour", "Chelmsford": "Conservative", "Strangford": "DUP", "Dundee West": "SNP", "Barnsley East": "Labour", "Derby South": "Labour", "Colchester": "Conservative", "Scunthorpe": "Conservative", "Coventry North East": "Labour", "Poole": "Conservative", "Macclesfield": "Conservative", "East Ham": "Labour", "Birmingham Yardley": "Labour", "Fareham": "Conservative", "Ross, Skye & Lochaber": "SNP", "Reigate": "Conservative", "Sleaford & North Hykeham": "Conservative", "Lincoln": "Conservative", "Bury South": "Labour", "Brent North": "Labour", "Bassetlaw": "Labour", "Kingston & Surbiton": "Liberal Democrat", "Wakefield": "Conservative", "Boston & Skegness": "Conservative", "South Basildon & East Thurrock": "Conservative", "East Worthing & Shoreham": "Conservative", "North East Cambridgeshire": "Conservative", "North East Fife": "Liberal Democrat", "Stockport": "Labour", "Stirling": "SNP", "South Staffordshire": "Conservative", "South Suffolk": "Conservative", "Erewash": "Conservative", "Cheadle": "Conservative", "North Norfolk": "Liberal Democrats", "Wentworth & Dearne": "Labour", "Bootle": "Labour", "Blyth Valley": "Labour", "Torbay": "Conservative", "Wolverhampton North East": "Labour", "Motherwell & Wishaw": "SNP", "Knowsley": "Labour", "Calder Valley": "Conservative", "Bolton West": "Conservative", "Ealing Southall": "Labour", "Mid Ulster": "Sinn Fein", "Edinburgh South West": "SNP", "Bournemouth West": "Conservative", "Bridgwater & West Somerset": "Conservative", "Newcastle upon Tyne East": "Labour", "Liverpool Riverside": "Labour", "Walsall North": "Conservative", "Central Ayrshire": "SNP", "Huddersfield": "Labour", "North Wiltshire": "Conservative", "Staffordshire Moorlands": "Conservative", "St Albans": "Conservative", "North Swindon": "Conservative", "Gateshead": "Labour", "Sutton & Cheam": "Conservative", "North East Bedfordshire": "Conservative", "Somerton & Frome": "Conservative", "Delyn": "Conservative", "Sittingbourne & Sheppey": "Conservative", "Ealing North": "Labour", "Bolton North East": "Labour", "Blaydon": "Conservative", "Rayleigh & Wickford": "Conservative", "Gillingham & Rainham": "Conservative", "Bury St Edmunds": "Conservative", "East Devon": "Liberal Democrat", "Esher & Walton": "Conservative", "Plymouth, Moor View": "Labour", "Milton Keynes North": "Conservative", "Hazel Grove": "Conservative", "Bradford East": "Labour", "Wirral West": "Liberal Democrat", "Rochford & Southend East": "Conservative", "Hampstead & Kilburn": "Labour", "Bristol East": "Conservative", "Chingford & Woodford Green": "Conservative", "North Tyneside": "Labour", "Beverley & Holderness": "Conservative", "St Ives": "Conservative", "Jarrow": "Labour", "Warrington North": "Labour", "Washington & Sunderland West": "Labour", "Altrincham and Sale West": "Conservative", "Christchurch": "Conservative", "Southampton Itchen": "Conservative", "Brecon & Radnorshire": "Conservative", "Mid Norfolk": "Conservative", "South Dorset": "Conservative", "Walsall South": "Labour", "Wycombe": "Conservative", "Glasgow South West": "SNP", "North West Hampshire": "Conservative", "Sunderland Central": "Labour", "Pendle": "Conservative", "Twickenham": "Liberal Democrat", "Bexleyheath & Crayford": "Conservative", "Basingstoke": "Conservative", "South Down": "Sinn Fein", "Aberavon": "Labour", "Central Devon": "Conservative", "South Leicestershire": "Conservative", "Glasgow North West": "SNP", "Belfast East": "Alliance", "East Yorkshire": "Conservative", "Chatham & Aylesford": "Conservative", "Poplar & Limehouse": "Labour", "Great Yarmouth": "Conservative", "Carmarthen West & South Pembrokeshire": "Conservative", "Alyn & Deeside": "Labour", "Upper Bann": "DUP", "Enfield North": "Conservative", "Nottingham North": "Labour", "Rochdale": "Labour", "Aberdeen South": "SNP", "York Outer": "Conservative", "Chichester": "Conservative", "Basildon & Billericay": "Conservative", "Heywood & Middleton": "Labour", "Edinburgh North & Leith": "SNP", "South West Surrey": "Conservative", "Southend West": "Conservative", "Hemel Hempstead": "Conservative", "Dumfriesshire, Clydesdale & Tweeddale": "Conservative", "Faversham & Mid Kent": "Conservative", "St Helens North": "Conservative", "Sheffield Heeley": "Labour", "Lichfield": "Conservative", "North Down": "Independent", "Brigg & Goole": "Conservative", "Amber Valley": "Conservative", "Witney": "Conservative", "Blackley & Broughton": "Labour", "Penistone & Stocksbridge": "Conservative", "West Ham": "Conservative", "Keighley": "Conservative", "Orkney & Shetland": "Liberal Democrats", "Ilford North": "Conservative", "Tatton": "Conservative", "Halton": "Labour", "Pudsey": "Conservative", "Sheffield South East": "Labour", "Devizes": "Conservative", "Plymouth, Sutton & Devonport": "Conservative", "East Lothian": "SNP", "Brighton Kemptown": "Conservative", "South Northamptonshire": "Conservative", "Torfaen": "Labour", "Nottingham South": "Labour", "Moray": "SNP", "Birmingham Hodge Hill": "Labour", "Stone": "Conservative", "Blackpool North & Cleveleys": "Conservative", "Ealing Central & Acton": "Labour", "Castle Point": "Conservative", "Arundel & South Downs": "Conservative", "Elmet & Rothwell": "Conservative", "Copeland": "Conservative", "Huntingdon": "Conservative", "Orpington": "Conservative", "New Forest East": "Conservative", "South Thanet": "Conservative", "Cities of London & Westminster": "Conservative", "Clwyd South": "Conservative", "Dewsbury": "Labour", "Henley": "Conservative", "Redditch": "Conservative", "Wolverhampton South West": "Conservative", "Garston & Halewood": "Labour", "Maidstone and The Weald": "Conservative", "Angus": "SNP", "Wirral South": "Labour", "Colne Valley": "Conservative", "Ilford South": "Labour", "Workington": "Labour", "Folkestone & Hythe": "Conservative", "Wyre Forest": "Conservative", "Foyle": "SDLP", "East Dunbartonshire": "Liberal Democrats", "Broadland": "Conservative", "Bracknell": "Conservative", "Bolton South East": "Labour", "Vale of Glamorgan": "Conservative", "Cumbernauld, Kilsyth & Kirkintilloch East": "SNP", "Charnwood": "Conservative", "Dulwich & West Norwood": "Labour", "Bosworth": "Conservative", "Doncaster Central": "Labour", "Ashfield": "Labour", "Montgomeryshire": "Conservative", "Dundee East": "SNP", "Feltham & Heston": "Labour", "Mole Valley": "Conservative", "Buckingham": "Conservative", "Thurrock": "Conservative", "Clwyd West": "Conservative", "Putney": "Liberal Democrat", "Derby North": "Conservative", "Wansbeck": "Labour", "The Cotswolds": "Conservative", "Mid Bedfordshire": "Conservative", "Stourbridge": "Conservative", "Airdrie & Shotts": "SNP", "Don Valley": "Labour", "Birmingham Perry Barr": "Labour", "Richmond Park": "Conservative", "Taunton Deane": "Conservative", "Enfield Southgate": "Conservative", "Berwick-upon-Tweed": "Conservative", "Swansea East": "Labour", "Selby & Ainsty": "Conservative", "Erith & Thamesmead": "Labour", "Stalybridge & Hyde": "Labour", "The Wrekin": "Conservative", "Hastings & Rye": "Conservative", "Cambridge": "Labour", "Bradford South": "Labour", "Winchester": "Conservative", "Ochil & South Perthshire": "SNP", "Wantage": "Conservative", "Beckenham": "Conservative", "Ludlow": "Conservative", "Manchester Central": "Labour", "Hornchurch & Upminster": "Conservative", "South Antrim": "DUP", "North Durham": "Conservative", "Portsmouth South": "Conservative", "North West Leicestershire": "Conservative", "Walthamstow": "Conservative", "Cynon Valley": "Labour", "Stratford-on-Avon": "Conservative", "Dover": "Conservative", "Coventry South": "Conservative", "Bognor Regis & Littlehampton": "Conservative", "Tottenham": "Labour", "South Swindon": "Conservative", "South East Cornwall": "Conservative", "Barnsley Central": "Labour", "Middlesbrough": "Labour", "Wokingham": "Conservative", "Peterborough": "Conservative", "Warrington South": "Conservative", "Birmingham Erdington": "Conservative", "Solihull": "Conservative", "Stroud": "Conservative", "Lancaster and Fleetwood": "Conservative", "Kirkcaldy & Cowdenbeath": "SNP", "Caerphilly": "Labour", "Carmarthen East & Dinefwr": "Plaid Cymru", "East Hampshire": "Conservative", "Pontypridd": "Labour", "Warwick & Leamington": "Conservative", "West Worcestershire": "Conservative", "South Holland & The Deepings": "Conservative", "West Bromwich West": "Labour", "Rutland & Melton": "Conservative", "North East Somerset": "Conservative", "Crawley": "Conservative", "York Central": "Labour", "Canterbury": "Conservative", "Cheltenham": "Conservative", "West Tyrone": "Sinn Fein", "Newton Abbot": "Conservative", "Aylesbury": "Conservative", "North Cornwall": "Conservative", "Horsham": "Conservative", "Hammersmith": "Labour", "Ogmore": "Labour", "Mid Dorset & North Poole": "Conservative", "Oxford East": "Labour", "Hackney North & Stoke Newington": "Labour", "North West Cambridgeshire": "Conservative", "Norwich North": "Conservative", "Sheffield, Brightside & Hillsborough": "Labour", "St Helens South & Whiston": "Labour", "South West Hertfordshire": "Conservative", "Hemsworth": "Labour", "Liverpool Walton": "Labour", "Maldon": "Conservative", "Dumfries & Galloway": "Conservative", "Eltham": "Conservative", "Brighton Pavilion": "Green", "Witham": "Conservative", "Penrith & The Border": "Conservative", "East Kilbride, Strathaven & Lesmahagow": "SNP", "West Dorset": "Conservative", "Leeds North West": "Liberal Democrat", "Burnley": "Labour", "Streatham": "Labour", "Darlington": "Conservative", "Caithness, Sutherland & Easter Ross": "SNP", "Luton South": "Labour", "Milton Keynes South": "Conservative", "Oxford West & Abingdon": "Conservative", "Scarborough & Whitby": "Conservative", "Nuneaton": "Conservative", "Bolsover": "Labour", "Meriden": "Conservative", "Sheffield Hallam": "Liberal Democrat", "Ayr, Carrick and Cumnock": "SNP", "Worsley & Eccles South": "Labour", "Waveney": "Conservative", "Windsor": "Conservative", "Berwickshire, Roxburgh & Selkirk": "Conservative", "Northampton South": "Conservative", "Salford & Eccles": "Labour", "Fylde": "Conservative", "Bexhill & Battle": "Conservative", "Hove": "Labour", "Central Suffolk & North Ipswich": "Conservative", "Newport West": "Labour", "Cardiff West": "Labour", "Kenilworth & Southam": "Conservative", "North Devon": "Conservative", "Kettering": "Conservative", "Dunfermline & West Fife": "SNP", "Cardiff South & Penarth": "Labour", "Uxbridge & South Ruislip": "Conservative", "Tunbridge Wells": "Conservative", "Greenwich & Woolwich": "Labour", "Liverpool Wavertree": "Labour", "Arfon": "Plaid Cymru", "Warley": "Labour", "Clacton": "UKIP", "Great Grimsby": "Conservative", "Carlisle": "Conservative", "Middlesbrough South & East Cleveland": "Conservative", "Redcar": "Labour", "Wells": "Conservative", "Banff & Buchan": "SNP", "Sefton Central": "Labour", "Gloucester": "Conservative", "Mid Worcestershire": "Conservative", "Monmouth": "Labour", "Brent Central": "Labour", "Tooting": "Labour", "Ipswich": "Conservative", "Kensington": "Conservative", "Hertsmere": "Conservative", "North Antrim": "DUP", "Glasgow South": "Conservative", "Norwich South": "Labour", "Broxbourne": "Conservative", "Newbury": "Conservative"}
 
-var UK_GENERAL_ELECTION_RESULTS_2010_OLD = {
-  "Aberavon": "Labour"
-, "Aberconwy": "Conservative"
-, "Aberdeen North": "Labour"
-, "Aberdeen South": "Labour"
-, "Aberdeenshire West and Kincardine": "Liberal Democrat"
-, "Airdrie and Shotts": "Labour"
-, "Aldershot": "Conservative"
-, "Aldridge-Brownhills": "Conservative"
-, "Altrincham and Sale West": "Conservative"
-, "Alyn and Deeside": "Labour"
-, "Amber Valley": "Conservative"
-, "Angus": "Scottish National Party"
-, "Antrim East": "Democratic Unionist Party"
-, "Antrim North": "Democratic Unionist Party"
-, "Antrim South": "Democratic Unionist Party"
-, "Arfon": "Plaid Cymru"
-, "Argyll and Bute": "Liberal Democrat"
-, "Arundel and South Downs": "Conservative"
-, "Ashfield": "Labour"
-, "Ashford": "Conservative"
-, "Ashton under Lyne": "Labour"
-, "Aylesbury": "Conservative"
-, "Ayr, Carrick and Cumnock": "Labour"
-, "Ayrshire Central": "Labour"
-, "Ayrshire North and Arran": "Labour"
-, "Banbury": "Conservative"
-, "Banff and Buchan": "Scottish National Party"
-, "Barking": "Labour"
-, "Barnsley Central": "Labour"
-, "Barnsley East": "Labour"
-, "Barrow and Furness": "Labour"
-, "Basildon and Billericay": "Conservative"
-, "Basildon South and Thurrock East": "Conservative"
-, "Basingstoke": "Conservative"
-, "Bassetlaw": "Labour"
-, "Bath": "Liberal Democrat"
-, "Batley and Spen": "Labour"
-, "Battersea": "Conservative"
-, "Beaconsfield": "Conservative"
-, "Beckenham": "Conservative"
-, "Bedford": "Conservative"
-, "Bedfordshire Mid": "Conservative"
-, "Bedfordshire North East": "Conservative"
-, "Bedfordshire South West": "Conservative"
-, "Belfast East": "Alliance Party of Northern Ireland"
-, "Belfast North": "Democratic Unionist Party"
-, "Belfast South": "Social Democratic and Labour Party"
-, "Belfast West": "Sinn Fein"
-, "Bermondsey and Old Southwark": "Liberal Democrat"
-, "Berwick-upon-Tweed": "Liberal Democrat"
-, "Berwickshire, Roxburgh and Selkirk": "Liberal Democrat"
-, "Bethnal Green and Bow": "Labour"
-, "Beverley and Holderness": "Conservative"
-, "Bexhill and Battle": "Conservative"
-, "Bexleyheath and Crayford": "Conservative"
-, "Birkenhead": "Labour"
-, "Birmingham Edgbaston": "Labour"
-, "Birmingham Erdington": "Labour"
-, "Birmingham Hall Green": "Labour"
-, "Birmingham Hodge Hill": "Labour"
-, "Birmingham Ladywood": "Labour"
-, "Birmingham Northfield": "Labour"
-, "Birmingham Perry Barr": "Labour"
-, "Birmingham Selly Oak": "Labour"
-, "Birmingham Yardley": "Liberal Democrat"
-, "Bishop Auckland": "Labour"
-, "Blackburn": "Labour"
-, "Blackley and Broughton": "Labour"
-, "Blackpool North and Cleveleys": "Conservative"
-, "Blackpool South": "Labour"
-, "Blaenau Gwent": "Labour"
-, "Blaydon": "Labour"
-, "Blyth Valley": "Labour"
-, "Bognor Regis and Littlehampton": "Conservative"
-, "Bolsover": "Labour"
-, "Bolton North East": "Labour"
-, "Bolton South East": "Labour"
-, "Bolton West": "Labour"
-, "Bootle": "Labour"
-, "Boston and Skegness": "Conservative"
-, "Bosworth": "Conservative"
-, "Bournemouth East": "Conservative"
-, "Bournemouth West": "Conservative"
-, "Bracknell": "Conservative"
-, "Bradford East": "Liberal Democrat"
-, "Bradford South": "Labour"
-, "Bradford West": "Labour"
-, "Braintree": "Conservative"
-, "Brecon and Radnorshire": "Liberal Democrat"
-, "Brent Central": "Liberal Democrat"
-, "Brent North": "Labour"
-, "Brentford and Isleworth": "Conservative"
-, "Brentwood and Ongar": "Conservative"
-, "Bridgend": "Labour"
-, "Bridgwater and Somerset West": "Conservative"
-, "Brigg and Goole": "Conservative"
-, "Brighton Kemptown": "Conservative"
-, "Brighton Pavilion": "Green Party"
-, "Bristol East": "Labour"
-, "Bristol North West": "Conservative"
-, "Bristol South": "Labour"
-, "Bristol West": "Liberal Democrat"
-, "Broadland": "Conservative"
-, "Bromley and Chislehurst": "Conservative"
-, "Bromsgrove": "Conservative"
-, "Broxbourne": "Conservative"
-, "Broxtowe": "Conservative"
-, "Buckingham": "Speaker"
-, "Burnley": "Liberal Democrat"
-, "Burton": "Conservative"
-, "Bury North": "Conservative"
-, "Bury South": "Labour"
-, "Bury St Edmunds": "Conservative"
-, "Caerphilly": "Labour"
-, "Caithness, Sutherland and Easter Ross": "Liberal Democrat"
-, "Calder Valley": "Conservative"
-, "Camberwell and Peckham": "Labour"
-, "Camborne and Redruth": "Conservative"
-, "Cambridge": "Liberal Democrat"
-, "Cambridgeshire North East": "Conservative"
-, "Cambridgeshire North West": "Conservative"
-, "Cambridgeshire South East": "Conservative"
-, "Cambridgeshire South": "Conservative"
-, "Cannock Chase": "Conservative"
-, "Canterbury": "Conservative"
-, "Cardiff Central": "Liberal Democrat"
-, "Cardiff North": "Conservative"
-, "Cardiff South and Penarth": "Labour"
-, "Cardiff West": "Labour"
-, "Carlisle": "Conservative"
-, "Carmarthen East and Dinefwr": "Plaid Cymru"
-, "Carmarthen West and Pembrokeshire South": "Conservative"
-, "Carshalton and Wallington": "Liberal Democrat"
-, "Castle Point": "Conservative"
-, "Ceredigion": "Liberal Democrat"
-, "Charnwood": "Conservative"
-, "Chatham and Aylesford": "Conservative"
-, "Cheadle": "Liberal Democrat"
-, "Chelmsford": "Conservative"
-, "Chelsea and Fulham": "Conservative"
-, "Cheltenham": "Liberal Democrat"
-, "Chesham and Amersham": "Conservative"
-, "Chester, City of": "Conservative"
-, "Chesterfield": "Labour"
-, "Chichester": "Conservative"
-, "Chingford and Woodford Green": "Conservative"
-, "Chippenham": "Liberal Democrat"
-, "Chipping Barnet": "Conservative"
-, "Chorley": "Labour"
-, "Christchurch": "Conservative"
-, "Cities of London and Westminster": "Conservative"
-, "Clacton": "Conservative"
-, "Cleethorpes": "Conservative"
-, "Clwyd South": "Labour"
-, "Clwyd West": "Conservative"
-, "Coatbridge, Chryston and Bellshill": "Labour"
-, "Colchester": "Liberal Democrat"
-, "Colne Valley": "Conservative"
-, "Congleton": "Conservative"
-, "Copeland": "Labour"
-, "Corby": "Conservative"
-, "Cornwall North": "Liberal Democrat"
-, "Cornwall South East": "Conservative"
-, "Cotswolds, The": "Conservative"
-, "Coventry North East": "Labour"
-, "Coventry North West": "Labour"
-, "Coventry South": "Labour"
-, "Crawley": "Conservative"
-, "Crewe and Nantwich": "Conservative"
-, "Croydon Central": "Conservative"
-, "Croydon North": "Labour"
-, "Croydon South": "Conservative"
-, "Cumbernauld, Kilsyth and Kirkintilloch East": "Labour"
-, "Cynon Valley": "Labour"
-, "Dagenham and Rainham": "Labour"
-, "Darlington": "Labour"
-, "Dartford": "Conservative"
-, "Daventry": "Conservative"
-, "Delyn": "Labour"
-, "Denton and Reddish": "Labour"
-, "Derby North": "Labour"
-, "Derby South": "Labour"
-, "Derbyshire Dales": "Conservative"
-, "Derbyshire Mid": "Conservative"
-, "Derbyshire North East": "Labour"
-, "Derbyshire South": "Conservative"
-, "Devizes": "Conservative"
-, "Devon Central": "Conservative"
-, "Devon East": "Conservative"
-, "Devon North": "Liberal Democrat"
-, "Devon South West": "Conservative"
-, "Devon West and Torridge": "Conservative"
-, "Dewsbury": "Conservative"
-, "Don Valley": "Labour"
-, "Doncaster Central": "Labour"
-, "Doncaster North": "Labour"
-, "Dorset Mid and Poole North": "Liberal Democrat"
-, "Dorset North": "Conservative"
-, "Dorset South": "Conservative"
-, "Dorset West": "Conservative"
-, "Dover": "Conservative"
-, "Down North": "Independent"
-, "Down South": "Social Democratic and Labour Party"
-, "Dudley North": "Labour"
-, "Dudley South": "Conservative"
-, "Dulwich and West Norwood": "Labour"
-, "Dumfries and Galloway": "Labour"
-, "Dumfriesshire, Clydesdale and Tweeddale": "Conservative"
-, "Dunbartonshire East": "Liberal Democrat"
-, "Dunbartonshire West": "Labour"
-, "Dundee East": "Scottish National Party"
-, "Dundee West": "Labour"
-, "Dunfermline and West Fife": "Labour"
-, "Durham North West": "Labour"
-, "Durham North": "Labour"
-, "Durham, City of": "Labour"
-, "Dwyfor Meirionnydd": "Plaid Cymru"
-, "Ealing Central and Acton": "Conservative"
-, "Ealing North": "Labour"
-, "Ealing Southall": "Labour"
-, "Easington": "Labour"
-, "East Ham": "Labour"
-, "East Kilbride, Strathaven and Lesmahagow": "Labour"
-, "East Lothian": "Labour"
-, "Eastbourne": "Liberal Democrat"
-, "Eastleigh": "Liberal Democrat"
-, "Eddisbury": "Conservative"
-, "Edinburgh East": "Labour"
-, "Edinburgh North and Leith": "Labour"
-, "Edinburgh South West": "Labour"
-, "Edinburgh South": "Labour"
-, "Edinburgh West": "Liberal Democrat"
-, "Edmonton": "Labour"
-, "Ellesmere Port and Neston": "Labour"
-, "Elmet and Rothwell": "Conservative"
-, "Eltham": "Labour"
-, "Enfield North": "Conservative"
-, "Enfield Southgate": "Conservative"
-, "Epping Forest": "Conservative"
-, "Epsom and Ewell": "Conservative"
-, "Erewash": "Conservative"
-, "Erith and Thamesmead": "Labour"
-, "Esher and Walton": "Conservative"
-, "Exeter": "Labour"
-, "Falkirk": "Labour"
-, "Fareham": "Conservative"
-, "Faversham and Kent Mid": "Conservative"
-, "Feltham and Heston": "Labour"
-, "Fermanagh and South Tyrone": "Sinn Fein"
-, "Fife North East": "Liberal Democrat"
-, "Filton and Bradley Stoke": "Conservative"
-, "Finchley and Golders Green": "Conservative"
-, "Folkestone and Hythe": "Conservative"
-, "Forest of Dean": "Conservative"
-, "Foyle": "Social Democratic and Labour Party"
-, "Fylde": "Conservative"
-, "Gainsborough": "Conservative"
-, "Garston and Halewood": "Labour"
-, "Gateshead": "Labour"
-, "Gedling": "Labour"
-, "Gillingham and Rainham": "Conservative"
-, "Glasgow Central": "Labour"
-, "Glasgow East": "Labour"
-, "Glasgow North East": "Labour"
-, "Glasgow North West": "Labour"
-, "Glasgow North": "Labour"
-, "Glasgow South West": "Labour"
-, "Glasgow South": "Labour"
-, "Glenrothes": "Labour"
-, "Gloucester": "Conservative"
-, "Gordon": "Liberal Democrat"
-, "Gosport": "Conservative"
-, "Gower": "Labour"
-, "Grantham and Stamford": "Conservative"
-, "Gravesham": "Conservative"
-, "Great Grimsby": "Labour"
-, "Great Yarmouth": "Conservative"
-, "Greenwich and Woolwich": "Labour"
-, "Guildford": "Conservative"
-, "Hackney North and Stoke Newington": "Labour"
-, "Hackney South and Shoreditch": "Labour"
-, "Halesowen and Rowley Regis": "Conservative"
-, "Halifax": "Labour"
-, "Haltemprice and Howden": "Conservative"
-, "Halton": "Labour"
-, "Hammersmith": "Labour"
-, "Hampshire East": "Conservative"
-, "Hampshire North East": "Conservative"
-, "Hampshire North West": "Conservative"
-, "Hampstead and Kilburn": "Labour"
-, "Harborough": "Conservative"
-, "Harlow": "Conservative"
-, "Harrogate and Knaresborough": "Conservative"
-, "Harrow East": "Conservative"
-, "Harrow West": "Labour"
-, "Hartlepool": "Labour"
-, "Harwich and Essex North": "Conservative"
-, "Hastings and Rye": "Conservative"
-, "Havant": "Conservative"
-, "Hayes and Harlington": "Labour"
-, "Hazel Grove": "Liberal Democrat"
-, "Hemel Hempstead": "Conservative"
-, "Hemsworth": "Labour"
-, "Hendon": "Conservative"
-, "Henley": "Conservative"
-, "Hereford and Herefordshire South": "Conservative"
-, "Herefordshire North": "Conservative"
-, "Hertford and Stortford": "Conservative"
-, "Hertfordshire North East": "Conservative"
-, "Hertfordshire South West": "Conservative"
-, "Hertsmere": "Conservative"
-, "Hexham": "Conservative"
-, "Heywood and Middleton": "Labour"
-, "High Peak": "Conservative"
-, "Hitchin and Harpenden": "Conservative"
-, "Holborn and St Pancras": "Labour"
-, "Hornchurch and Upminster": "Conservative"
-, "Hornsey and Wood Green": "Liberal Democrat"
-, "Horsham": "Conservative"
-, "Houghton and Sunderland South": "Labour"
-, "Hove": "Conservative"
-, "Huddersfield": "Labour"
-, "Hull East": "Labour"
-, "Hull North": "Labour"
-, "Hull West and Hessle": "Labour"
-, "Huntingdon": "Conservative"
-, "Hyndburn": "Labour"
-, "Ilford North": "Conservative"
-, "Ilford South": "Labour"
-, "Inverclyde": "Labour"
-, "Inverness, Nairn, Badenoch and Strathspey": "Liberal Democrat"
-, "Ipswich": "Conservative"
-, "Isle of Wight": "Conservative"
-, "Islington North": "Labour"
-, "Islington South and Finsbury": "Labour"
-, "Islwyn": "Labour"
-, "Jarrow": "Labour"
-, "Keighley": "Conservative"
-, "Kenilworth and Southam": "Conservative"
-, "Kensington": "Conservative"
-, "Kettering": "Conservative"
-, "Kilmarnock and Loudoun": "Labour"
-, "Kingston and Surbiton": "Liberal Democrat"
-, "Kingswood": "Conservative"
-, "Kirkcaldy and Cowdenbeath": "Labour"
-, "Knowsley": "Labour"
-, "Lagan Valley": "Democratic Unionist Party"
-, "Lanark and Hamilton East": "Labour"
-, "Lancashire West": "Labour"
-, "Lancaster and Fleetwood": "Conservative"
-, "Leeds Central": "Labour"
-, "Leeds East": "Labour"
-, "Leeds North East": "Labour"
-, "Leeds North West": "Liberal Democrat"
-, "Leeds West": "Labour"
-, "Leicester East": "Labour"
-, "Leicester South": "Labour"
-, "Leicester West": "Labour"
-, "Leicestershire North West": "Conservative"
-, "Leicestershire South": "Conservative"
-, "Leigh": "Labour"
-, "Lewes": "Liberal Democrat"
-, "Lewisham Deptford": "Labour"
-, "Lewisham East": "Labour"
-, "Lewisham West and Penge": "Labour"
-, "Leyton and Wanstead": "Labour"
-, "Lichfield": "Conservative"
-, "Lincoln": "Conservative"
-, "Linlithgow and Falkirk East": "Labour"
-, "Liverpool Riverside": "Labour"
-, "Liverpool Walton": "Labour"
-, "Liverpool Wavertree": "Labour"
-, "Liverpool West Derby": "Labour"
-, "Livingston": "Labour"
-, "Llanelli": "Labour"
-, "Londonderry East": "Democratic Unionist Party"
-, "Loughborough": "Conservative"
-, "Louth and Horncastle": "Conservative"
-, "Ludlow": "Conservative"
-, "Luton North": "Labour"
-, "Luton South": "Labour"
-, "Macclesfield": "Conservative"
-, "Maidenhead": "Conservative"
-, "Maidstone and The Weald": "Conservative"
-, "Makerfield": "Labour"
-, "Maldon": "Conservative"
-, "Manchester Central": "Labour"
-, "Manchester Gorton": "Labour"
-, "Manchester Withington": "Liberal Democrat"
-, "Mansfield": "Labour"
-, "Meon Valley": "Conservative"
-, "Meriden": "Conservative"
-, "Merthyr Tydfil and Rhymney": "Labour"
-, "Middlesbrough South and Cleveland East": "Labour"
-, "Middlesbrough": "Labour"
-, "Midlothian": "Labour"
-, "Milton Keynes North": "Conservative"
-, "Milton Keynes South": "Conservative"
-, "Mitcham and Morden": "Labour"
-, "Mole Valley": "Conservative"
-, "Monmouth": "Conservative"
-, "Montgomeryshire": "Conservative"
-, "Moray": "Scottish National Party"
-, "Morecambe and Lunesdale": "Conservative"
-, "Morley and Outwood": "Labour"
-, "Motherwell and Wishaw": "Labour"
-, "Na H-Eileanan An Iar": "Scottish National Party"
-, "Neath": "Labour"
-, "New Forest East": "Conservative"
-, "New Forest West": "Conservative"
-, "Newark": "Conservative"
-, "Newbury": "Conservative"
-, "Newcastle upon Tyne Central": "Labour"
-, "Newcastle upon Tyne East": "Labour"
-, "Newcastle upon Tyne North": "Labour"
-, "Newcastle-under-Lyme": "Labour"
-, "Newport East": "Labour"
-, "Newport West": "Labour"
-, "Newry and Armagh": "Sinn Fein"
-, "Newton Abbot": "Conservative"
-, "Norfolk Mid": "Conservative"
-, "Norfolk North West": "Conservative"
-, "Norfolk North": "Liberal Democrat"
-, "Norfolk South West": "Conservative"
-, "Norfolk South": "Conservative"
-, "Normanton, Pontefract and Castleford": "Labour"
-, "Northampton North": "Conservative"
-, "Northampton South": "Conservative"
-, "Northamptonshire South": "Conservative"
-, "Norwich North": "Conservative"
-, "Norwich South": "Liberal Democrat"
-, "Nottingham East": "Labour"
-, "Nottingham North": "Labour"
-, "Nottingham South": "Labour"
-, "Nuneaton": "Conservative"
-, "Ochil and South Perthshire": "Labour"
-, "Ogmore": "Labour"
-, "Old Bexley and Sidcup": "Conservative"
-, "Oldham East and Saddleworth": "Labour"
-, "Oldham West and Royton": "Labour"
-, "Orkney and Shetland": "Liberal Democrat"
-, "Orpington": "Conservative"
-, "Oxford East": "Labour"
-, "Oxford West and Abingdon": "Conservative"
-, "Paisley and Renfrewshire North": "Labour"
-, "Paisley and Renfrewshire South": "Labour"
-, "Pendle": "Conservative"
-, "Penistone and Stocksbridge": "Labour"
-, "Penrith and The Border": "Conservative"
-, "Perth and North Perthshire": "Scottish National Party"
-, "Peterborough": "Conservative"
-, "Plymouth Moor View": "Labour"
-, "Plymouth Sutton and Devonport": "Conservative"
-, "Pontypridd": "Labour"
-, "Poole": "Conservative"
-, "Poplar and Limehouse": "Labour"
-, "Portsmouth North": "Conservative"
-, "Portsmouth South": "Liberal Democrat"
-, "Preseli Pembrokeshire": "Conservative"
-, "Preston": "Labour"
-, "Pudsey": "Conservative"
-, "Putney": "Conservative"
-, "Rayleigh and Wickford": "Conservative"
-, "Reading East": "Conservative"
-, "Reading West": "Conservative"
-, "Redcar": "Liberal Democrat"
-, "Redditch": "Conservative"
-, "Reigate": "Conservative"
-, "Renfrewshire East": "Labour"
-, "Rhondda": "Labour"
-, "Ribble South": "Conservative"
-, "Ribble Valley": "Conservative"
-, "Richmond (Yorks)": "Conservative"
-, "Richmond Park": "Conservative"
-, "Rochdale": "Labour"
-, "Rochester and Strood": "Conservative"
-, "Rochford and Southend East": "Conservative"
-, "Romford": "Conservative"
-, "Romsey and Southampton North": "Conservative"
-, "Ross, Skye and Lochaber": "Liberal Democrat"
-, "Rossendale and Darwen": "Conservative"
-, "Rother Valley": "Labour"
-, "Rotherham": "Labour"
-, "Rugby": "Conservative"
-, "Ruislip, Northwood and Pinner": "Conservative"
-, "Runnymede and Weybridge": "Conservative"
-, "Rushcliffe": "Conservative"
-, "Rutherglen and Hamilton West": "Labour"
-, "Rutland and Melton": "Conservative"
-, "Saffron Walden": "Conservative"
-, "Salford and Eccles": "Labour"
-, "Salisbury": "Conservative"
-, "Scarborough and Whitby": "Conservative"
-, "Scunthorpe": "Labour"
-, "Sedgefield": "Labour"
-, "Sefton Central": "Labour"
-, "Selby and Ainsty": "Conservative"
-, "Sevenoaks": "Conservative"
-, "Sheffield Brightside and Hillsborough": "Labour"
-, "Sheffield Central": "Labour"
-, "Sheffield Hallam": "Liberal Democrat"
-, "Sheffield Heeley": "Labour"
-, "Sheffield South East": "Labour"
-, "Sherwood": "Conservative"
-, "Shipley": "Conservative"
-, "Shrewsbury and Atcham": "Conservative"
-, "Shropshire North": "Conservative"
-, "Sittingbourne and Sheppey": "Conservative"
-, "Skipton and Ripon": "Conservative"
-, "Sleaford and North Hykeham": "Conservative"
-, "Slough": "Labour"
-, "Solihull": "Liberal Democrat"
-, "Somerset North East": "Conservative"
-, "Somerset North": "Conservative"
-, "Somerton and Frome": "Liberal Democrat"
-, "South Holland and The Deepings": "Conservative"
-, "South Shields": "Labour"
-, "Southampton Itchen": "Labour"
-, "Southampton Test": "Labour"
-, "Southend West": "Conservative"
-, "Southport": "Liberal Democrat"
-, "Spelthorne": "Conservative"
-, "St Albans": "Conservative"
-, "St Austell and Newquay": "Liberal Democrat"
-, "St Helens North": "Labour"
-, "St Helens South and Whiston": "Labour"
-, "St Ives": "Liberal Democrat"
-, "Stafford": "Conservative"
-, "Staffordshire Moorlands": "Conservative"
-, "Staffordshire South": "Conservative"
-, "Stalybridge and Hyde": "Labour"
-, "Stevenage": "Conservative"
-, "Stirling": "Labour"
-, "Stockport": "Labour"
-, "Stockton North": "Labour"
-, "Stockton South": "Conservative"
-, "Stoke-on-Trent Central": "Labour"
-, "Stoke-on-Trent North": "Labour"
-, "Stoke-on-Trent South": "Labour"
-, "Stone": "Conservative"
-, "Stourbridge": "Conservative"
-, "Strangford": "Democratic Unionist Party"
-, "Stratford-on-Avon": "Conservative"
-, "Streatham": "Labour"
-, "Stretford and Urmston": "Labour"
-, "Stroud": "Conservative"
-, "Suffolk Central and Ipswich North": "Conservative"
-, "Suffolk Coastal": "Conservative"
-, "Suffolk South": "Conservative"
-, "Suffolk West": "Conservative"
-, "Sunderland Central": "Labour"
-, "Surrey East": "Conservative"
-, "Surrey Heath": "Conservative"
-, "Surrey South West": "Conservative"
-, "Sussex Mid": "Conservative"
-, "Sutton and Cheam": "Liberal Democrat"
-, "Sutton Coldfield": "Conservative"
-, "Swansea East": "Labour"
-, "Swansea West": "Labour"
-, "Swindon North": "Conservative"
-, "Swindon South": "Conservative"
-, "Tamworth": "Conservative"
-, "Tatton": "Conservative"
-, "Taunton Deane": "Liberal Democrat"
-, "Telford": "Labour"
-, "Tewkesbury": "Conservative"
-, "Thanet North": "Conservative"
-, "Thanet South": "Conservative"
-, "Thornbury and Yate": "Liberal Democrat"
-, "Thurrock": "Conservative"
-, "Tiverton and Honiton": "Conservative"
-, "Tonbridge and Malling": "Conservative"
-, "Tooting": "Labour"
-, "Torbay": "Liberal Democrat"
-, "Torfaen": "Labour"
-, "Totnes": "Conservative"
-, "Tottenham": "Labour"
-, "Truro and Falmouth": "Conservative"
-, "Tunbridge Wells": "Conservative"
-, "Twickenham": "Liberal Democrat"
-, "Tynemouth": "Labour"
-, "Tyneside North": "Labour"
-, "Tyrone West": "Sinn Fein"
-, "Ulster Mid": "Sinn Fein"
-, "Upper Bann": "Democratic Unionist Party"
-, "Uxbridge and Ruislip South": "Conservative"
-, "Vale of Clwyd": "Labour"
-, "Vale of Glamorgan": "Conservative"
-, "Vauxhall": "Labour"
-, "Wakefield": "Labour"
-, "Wallasey": "Labour"
-, "Walsall North": "Labour"
-, "Walsall South": "Labour"
-, "Walthamstow": "Labour"
-, "Wansbeck": "Labour"
-, "Wantage": "Conservative"
-, "Warley": "Labour"
-, "Warrington North": "Labour"
-, "Warrington South": "Conservative"
-, "Warwick and Leamington": "Conservative"
-, "Warwickshire North": "Conservative"
-, "Washington and Sunderland West": "Labour"
-, "Watford": "Conservative"
-, "Waveney": "Conservative"
-, "Wealden": "Conservative"
-, "Weaver Vale": "Conservative"
-, "Wellingborough": "Conservative"
-, "Wells": "Liberal Democrat"
-, "Welwyn Hatfield": "Conservative"
-, "Wentworth and Dearne": "Labour"
-, "West Bromwich East": "Labour"
-, "West Bromwich West": "Labour"
-, "West Ham": "Labour"
-, "Westminster North": "Labour"
-, "Westmorland and Lonsdale": "Liberal Democrat"
-, "Weston-Super-Mare": "Conservative"
-, "Wigan": "Labour"
-, "Wiltshire North": "Conservative"
-, "Wiltshire South West": "Conservative"
-, "Wimbledon": "Conservative"
-, "Winchester": "Conservative"
-, "Windsor": "Conservative"
-, "Wirral South": "Labour"
-, "Wirral West": "Conservative"
-, "Witham": "Conservative"
-, "Witney": "Conservative"
-, "Woking": "Conservative"
-, "Wokingham": "Conservative"
-, "Wolverhampton North East": "Labour"
-, "Wolverhampton South East": "Labour"
-, "Wolverhampton South West": "Conservative"
-, "Worcester": "Conservative"
-, "Worcestershire Mid": "Conservative"
-, "Worcestershire West": "Conservative"
-, "Workington": "Labour"
-, "Worsley and Eccles South": "Labour"
-, "Worthing East and Shoreham": "Conservative"
-, "Worthing West": "Conservative"
-, "Wrekin, The": "Conservative"
-, "Wrexham": "Labour"
-, "Wycombe": "Conservative"
-, "Wyre and Preston North": "Conservative"
-, "Wyre Forest": "Conservative"
-, "Wythenshawe and Sale East": "Labour"
-, "Yeovil": "Liberal Democrat"
-, "Ynys Mon": "Labour"
-, "York Central": "Labour"
-, "York Outer": "Conservative"
-, "Yorkshire East": "Conservative"
-};
 
 var UK_POLITICAL_PARTY_COLOURS = {
   'Alliance Party of Northern Ireland': '#FFCC00'
 , 'Conservative': '#333399'
 , 'Democratic Unionist Party': '#CC3300'
-, 'Green Party': '#339900'
+, 'Green': '#339900'
 , 'Independent': '#996699'
 , 'Labour': '#CC0000'
 , 'Liberal Democrat': '#FF9900'
@@ -1363,4 +712,8 @@ var UK_POLITICAL_PARTY_COLOURS = {
 , 'Sinn Fein': '#003300'
 , 'Social Democratic and Labour Party': '#669966'
 , 'Speaker': '#333399'
+, 'UKIP' : '#333399'
+, 'DUP' : '#333399'
+, 'SDLP' : '#333399'
+, 'Alliance' : '#333399'
 };

@@ -22,7 +22,7 @@ Banff & Buchan,SNP
 Barking,Labour
 Barnsley Central,Labour
 Barnsley East,Labour
-Barrow in Furness,Labour
+Barrow & Furness,Labour
 Basildon & Billericay,Conservative
 Basingstoke,Conservative
 Bassetlaw,Labour
@@ -36,7 +36,7 @@ Bermondsey & Old Southwark,Labour
 Berwick-upon-Tweed,Conservative
 Berwickshire, Roxburgh & Selkirk,SNP
 Bethnal Green & Bow,Labour
-Beverley & erness,Conservative
+Beverley & Holderness,Conservative
 Bexhill & Battle,Conservative
 Bexleyheath & Crayford,Conservative
 Birkenhead,Labour
@@ -47,7 +47,7 @@ Birmingham Hodge Hill,Labour
 Birmingham Ladywood,Labour
 Birmingham Northfield,Labour
 Birmingham Perry Barr,Labour
-Birmingham, Selly Oak,Labour
+Birmingham Selly Oak,Labour
 Birmingham Yardley,Labour
 Bishop Auckland,Labour
 Blackburn,Labour
@@ -279,7 +279,7 @@ Hertsmere,Conservative
 Hexham,Conservative
 Heywood & Middleton,Labour
 High Peak,Conservative
-Hitchin & Harpenden,Conservative
+Hitchen & Harpenden,Conservative
 Holborn & St Pancras,Labour
 Hornchurch & Upminster,Conservative
 Hornsey & Wood Green,Labour
@@ -303,7 +303,7 @@ Keighley,Conservative
 Kenilworth & Southam,Conservative
 Kensington,Conservative
 Kettering,Conservative
-Kilmarnock & Loudoun,SNP
+Kilmarnock & Loudon,SNP
 Kingston & Surbiton,Conservative
 Kingston upon Hull East,Labour
 Kingston upon Hull North,Labour
@@ -391,7 +391,7 @@ Newton Abbot,Conservative
 Normanton, Pontefract & Castleford,Labour
 North Antrim,DUP
 North Ayrshire & Arran,SNP
-North Belfast,DUP
+Belfast North,DUP
 North Cornwall,Conservative
 North Devon,Conservative
 North Dorset,Conservative
@@ -503,7 +503,7 @@ Solihull,Conservative
 Somerton & Frome,Conservative
 South Antrim,UUP
 South Basildon & East Thurrock,Conservative
-South Belfast,SDLP
+Belfast South,SDLP
 South Cambridgeshire,Conservative
 South Derbyshire,Conservative
 South Dorset,Conservative
